@@ -20,14 +20,14 @@ const Home = () => {
       <HomeSlider />
       <TopAbout />
       <TopCtaArea />
-      <Gallery />
-      <Team />
+      {/* <Gallery /> */}
+      {/* <Team /> */}
       <Feature />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <Brands />
-      <LastedBlog />
+      {/* <LastedBlog /> */}
       <FullScreenBtn />
-      <TopFooter />
+      {/* <TopFooter /> */}
       <Footer />
     </>
   );
