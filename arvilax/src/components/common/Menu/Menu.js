@@ -49,6 +49,9 @@ const Menu = ({ header_style_2 }) => {
                 </div>
                 <div className="col-lg-3 col-md-4 col-5">
                   <div className="header__main_right d-flex justify-content-end align-items-center">
+                     <div className="mt-45 mb-30">
+                  
+                </div>
                     <div className="tp-header-search-icons normal-search mr-80 p-relative ">
                       <div
                         className={`search-btn-wrap ${

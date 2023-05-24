@@ -18,17 +18,13 @@ const TopAbout = () => {
                     Don’t worry Your project in the right hands
                   </h2>
                   <p>
-                    Neque volutpat ac tincidunt vitae semper quis lectus nulla
-                    at. Nibh nisl id venenatis a condimentum. Libero justo
-                    laoreet sit amet. Nisl nisi scelerisque eu ultrices vitae.
-                    Dolor sit amet consectetur adipiscing elit pellentesque.
-                    Phasellus egestas tellus rutrum
+                  trust our expert tax consultants to ensure your business's success.
+                   From strategy to delivery, we provide tailored solutions for financial planning and regulatory compliance.
+                   
                   </p>
                   <p className="pt-10">
-                    Sed ullamcorper morbi tincidunt ornare massa potenti nullam
-                    ac tortor vitae purus. faucibus ornare suspendisse. Donec
-                    enim diam vulputate ut pharetra sit amet aliquam id. Eu mi
-                    bibendum neque egestas congue purus non enim praesent.
+                  With our up-to-date knowledge and personalized guidance, minimize tax liability and maximize efficiency.
+                   Partner with us for a proactive approach that unlocks growth opportunities.
                   </p>
                 </div>
                 <div className="mt-45 mb-30">
