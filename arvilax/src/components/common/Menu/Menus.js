@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Appointbtn from "./Appointbtn";
+
 
 const Menus = () => {
   return (
@@ -12,10 +14,30 @@ const Menus = () => {
       </li>
       <li>
         <Link to="/service">Services</Link>
-        
+         <ul className="submenu">
+                  <li>
+                    <Link to="/service-details">Taxation</Link>
+                  </li>
+                  <li>
+                    <Link to="/service-details">Financial accountss</Link>
+                  </li>
+                  <li>
+                    <Link to="/service-details">Xero Training</Link>
+                  </li>
+                  <li>
+                    <Link to="/service-details">Bookkeeping & Payroll services</Link>
+                  </li>
+                  <li>
+                    <Link to="//service-details">Other services</Link>
+                  </li>
+                  
+         </ul>        
       </li>
       <li>
         <Link to="/contact">Contact Us</Link>
+      </li>
+      <li>
+        <Appointbtn/>
       </li>
       
     </ul>
