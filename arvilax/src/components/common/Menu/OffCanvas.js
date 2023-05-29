@@ -23,19 +23,15 @@ const OffCanvas = ({ setOffCanvas, isOffCanvas }) => {
           <div className="offcanvas-subtitle">
             <span>ELEVATE YOUR BUSINESS WITH</span>
           </div>
-          <div className="offcanvas-logo pb-30 pt-30">
+          <div className="offcanvas-logo pb-20 pt-20">
             <img src="assets/img/logo/logo.png" alt="" />
           </div>
           <div className="offcanva-details">
-            <p>
-              Limitless customization options & Elementor compatibility let
-              anyone create a beautiful website with Valiance.
-            </p>
           </div>
           <div className="offcanva-btn">
             <Link
               to="/contact"
-              className="tp-slider-btn mt-40 d-inline-block"
+              className="tp-slider-btn mt-20 d-inline-block"
               tabIndex="-1"
             >
               <span>
@@ -75,23 +71,25 @@ const OffCanvas = ({ setOffCanvas, isOffCanvas }) => {
           </div>
         </div>
 
-        <div className="tp-footer__widget pb-30 offcanvas-ct-info">
+        <div className="tp-footer__widget pb-60 offcanvas-ct-info">
           <h3 className="tp-footer__widget-title">Quick Links</h3>
           <ul>
             <li>
-              <Link to="#">27 Division St, New York, NY 10002, USA</Link>
+            <a href="#"> 6 Gething Crescent, Bowden South Australia 5007, Australia</a>
             </li>
             <li>
-              <Link to="tel:+88015569569365">(+880)52462545632</Link>
+            <a href="tel:0881234362 ">office: (08) 8123 4362 </a>
+                            <a href="tel:0425491977" className="ml-5">Mobile: 0425 491 977 </a>
             </li>
             <li>
               <Link to="mailto:support@example.com">support@example.com</Link>
             </li>
             <li>
-              <span> Office Hours: 9AM - 4PM</span>
+              <span> Office Hours: 9AM - 5PM</span>
+              <span> Monday - FriDay</span>
             </li>
             <li>
-              <span> Friday - Wekend Day</span>
+              
             </li>
           </ul>
         </div>

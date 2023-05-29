@@ -1,8 +1,7 @@
-import React, { useState } from "react";
-import VideoPopup from "../../common/Modals/VideoPopup";
+
 
 const ServiceDetailsAbout = () => {
-  const [isVideoOpen,setIsVideoOpen] = useState(false);
+ 
   return (
     <>
       <div className="tp-service-page pt-140 pb-140">
@@ -22,109 +21,57 @@ const ServiceDetailsAbout = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="tp-sv__content">
-                <h3 className="tp-sv__title">Business Management</h3>
+                <h3 className="tp-sv__title">Taxation</h3>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam, eaque
-                  ipsa quae ab illo inventore veritatis et quasi architecto
-                  beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
-                  quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                  consequuntur magni dolores eos qui ratione voluptatem sequi
-                  nesciunt. Neque porro quisquam est, qui dolorem ipsum quia
-                  dolor sit amet, consectetur, adipisci velit, sed quia non
-                  numquam eius modi tempora incidunt ut labore et dolore magnam
-                  aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
-                  nostrum exercitationem ullam corporis suscipit laboriosam,
-                  nisi ut aliquid ex ea commodi consequatur?{" "}
+                Welcome to AMA TAX ACCOUNTANTS & BOOKKEEPERS, your trusted partner in tax services. 
+                We understand that navigating the complex world of taxation can be overwhelming and time-consuming. 
+                That's where we come in. Our team of experienced tax professionals is dedicated to helping individuals and businesses achieve their financial goals while maximizing tax benefits.
+                 Whether you're a small business owner, a freelancer, or an individual taxpayer, we have tailored solutions to meet your specific needs.
+
+                With our in-depth knowledge of tax laws and regulations, we ensure accurate and compliant tax preparation and filing.
+                 We stay up to date with the latest industry trends and changes,so you can have peace of mind knowing that your taxes are in capable hands.
+                Beyond tax preparation, we offer proactive tax planning strategies to minimize your tax liabilities and maximize your deductions.
+                 Our personalized approach allows us to identify opportunities for tax savings unique to your situation.
+
+              
                 </p>
 
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam, eaque
-                  ipsa quae ab illo inventore veritatis et quasi architecto
-                  beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
-                  quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                  consequuntur magni dolores eos qui ratione voluptatem sequi
-                  nesciunt. Neque porro quisquam est, qui dolorem ipsum quia
-                  dolor sit amet, consectetur, adipisci velit, sed quia non
-                  numquam eius modi tempora incidunt ut labore et dolore magnam
-                  aliquam quaerat voluptatem.
+                At AMA TAX ACCOUNTANTS & BOOKKEEPERS, we pride ourselves on delivering exceptional client service.
+                 We strive to build long-lasting relationships based on trust, integrity, and confidentiality.
+                  Your financial success is our priority, and we go above and beyond to provide you with the guidance and support you need.
+                Don't let tax season stress you out. Let us handle the complexities while you focus on what you do best.
+                 Contact us today to schedule a consultation and discover how our tax services can benefit you. Together, let's navigate the tax landscape and unlock financial opportunities.
+                
                 </p>
 
                 <h4 className="tp-sv__subtitle">
-                  We Follow Simple Step for your Success
+                services We simply offer following 
                 </h4>
-                <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam, eaque
-                  ipsa quae ab illo inventore veritatis et quasi architecto
-                  beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
-                  quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                  consequuntur magni dolores eos qui ratione voluptatem sequi
-                  nesciunt. Neque porro quisquam est, qui dolorem ipsum quia
-                  dolor sit amet,
-                </p>
-                <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam, eaque
-                  ipsa quae ab illo inventore veritatis et quasi architecto
-                  beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
-                  quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                  consequuntur magni dolores eos qui ratione voluptatem sequi
-                  nesciunt. Neque porro quisquam est, qui dolorem ipsum quia
-                  dolor sit amet, consectetur, adipisci velit, sed quia non
-                  numquam eius modi tempora incidunt ut labore et dolore magnam
-                  aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
-                  nostrum exercitationem ullam corporis suscipit laboriosam,
-                  nisi ut aliquid ex ea commodi consequatur?
-                </p>
-
-                <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam, eaque
-                  ipsa quae ab illo inventore veritatis et quasi architecto
-                  beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
-                  quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                  consequuntur magni dolores eos qui ratione voluptatem sequi
-                  nesciunt. Neque porro quisquam est, qui dolorem ipsum quia
-                  dolor sit amet, consectetur, adipisci velit, sed quia non
-                  numquam eius modi tempora incidunt ut labore et dolore magnam
-                  aliquam quaerat voluptatem.
-                </p>
-
-                <div className="tp-sv__video">
-                  <div
-                    className="tp_sv__video-bg"
-                    // data-background="/assets/img/service/service-blog-bg.jpg"
-                    style={{
-                      backgroundImage: `url("/assets/img/service/service-blog-bg.jpg")`,
-                    }}
-                  >
-                    <div className="pt-180 pb-180 text-center p-relative">
-                      <span>
-                        <button
-                          onClick={()=> setIsVideoOpen(true)}
-                          className="sv-video sv-popup-video"
-                        >
-                          <i className="fas fa-play"></i>
-                        </button>
-                      </span>
-                    </div>
-                  </div>
-                </div>
+                  <ul className="list-group">
+                    <li className="list-group-item" >
+                    Individuals Tax Returns
+                    </li>
+                    <li className="list-group-item" >
+                    Sole Trader Tax Returns 
+                    </li>
+                    <li className="list-group-item" >
+                    Trust Tax Returns
+                    </li>
+                    <li className="list-group-item" >
+                    Company Tax Returns 
+                    </li>
+                    <li className="list-group-item" >
+                    SMSF tax returns
+                    </li>
+                  </ul>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      {/* video modal start */}
-      <VideoPopup
-        isVideoOpen={isVideoOpen}
-        setIsVideoOpen={setIsVideoOpen}
-        videoId={"EW4ZYb3mCZk"}
-      />
-      {/* video modal end */}
+      
     </>
   );
 };

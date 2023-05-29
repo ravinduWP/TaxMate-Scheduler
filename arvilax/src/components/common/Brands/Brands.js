@@ -71,12 +71,11 @@ const Brands = ({ style_2 = false }) => {
               className="tp-brand-slider tp-brand-silder-actiive tp-brand-border pt-60 pb-60"
             >
               {brands?.brands.map((brand) => (
-                <div
-                  key={brand.id}
-                  className="tp-brand-item text-center scale-1"
-                >
-                  <img src={brand.img} alt="" />
-                </div>
+                <a key={brand.id} href={brand.link} target="_blank" rel="noopener noreferrer">
+                  <div className="tp-brand-item text-center scale-1">
+                    <img src={brand.img} alt="" />
+                  </div>
+                </a>
               ))}
             </Slider>
           </div>

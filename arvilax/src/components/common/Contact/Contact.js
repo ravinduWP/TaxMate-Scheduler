@@ -24,52 +24,66 @@ const Contact = () => {
                 <h4 className="tp-contact-form-title">
                   Derect Contact with us
                 </h4>
-                <form action="#">
+                <form id="contact-form" action="assets/mail.php" method="POST">
                   <input
                     type="text"
                     name="name"
-                    placeholder="Enter your name"
+                    placeholder="Enter your name*"
+                    required
                   />
-                  <br />
                   <input
                     type="email"
                     name="email"
-                    placeholder="Enter your mail"
+                    placeholder="Your email here"
+                    required
                   />
-                  <br />
+                  <input
+                    type="text"
+                    name="phone"
+                    placeholder="Enter your number*"
+                    required
+                  />
+                  <input
+                    type="text"
+                    name="subject"
+                    placeholder="Subject*"
+                    required
+                  />
                   <textarea
                     name="message"
-                    placeholder="Enter your mail"
+                    placeholder="Enter your Massage*"
                   ></textarea>
-                  <button type="submit" className="tp-btn-border">
-                    Send Massage
-                    <span>
-                      <svg
-                        width="22"
-                        height="8"
-                        viewBox="0 0 22 8"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M21.3536 4.35356C21.5488 4.15829 21.5488 3.84171 21.3536 3.64645L18.1716 0.464468C17.9763 0.269205 17.6597 0.269205 17.4645 0.464468C17.2692 0.65973 17.2692 0.976312 17.4645 1.17157L20.2929 4L17.4645 6.82843C17.2692 7.02369 17.2692 7.34027 17.4645 7.53554C17.6597 7.7308 17.9763 7.7308 18.1716 7.53554L21.3536 4.35356ZM-4.37114e-08 4.5L21 4.5L21 3.5L4.37114e-08 3.5L-4.37114e-08 4.5Z"
-                          fill="currentColor"
-                        ></path>
-                      </svg>
-                      <svg
-                        width="22"
-                        height="8"
-                        viewBox="0 0 22 8"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M21.3536 4.35356C21.5488 4.15829 21.5488 3.84171 21.3536 3.64645L18.1716 0.464468C17.9763 0.269205 17.6597 0.269205 17.4645 0.464468C17.2692 0.65973 17.2692 0.976312 17.4645 1.17157L20.2929 4L17.4645 6.82843C17.2692 7.02369 17.2692 7.34027 17.4645 7.53554C17.6597 7.7308 17.9763 7.7308 18.1716 7.53554L21.3536 4.35356ZM-4.37114e-08 4.5L21 4.5L21 3.5L4.37114e-08 3.5L-4.37114e-08 4.5Z"
-                          fill="currentColor"
-                        ></path>
-                      </svg>
-                    </span>
-                  </button>
+                  <div className="text-center">
+                    <button type="submit" className="tp-btn-border">
+                      Send Massage{" "}
+                      <span>
+                        <svg
+                          width="22"
+                          height="8"
+                          viewBox="0 0 22 8"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M21.3536 4.35356C21.5488 4.15829 21.5488 3.84171 21.3536 3.64645L18.1716 0.464468C17.9763 0.269205 17.6597 0.269205 17.4645 0.464468C17.2692 0.65973 17.2692 0.976312 17.4645 1.17157L20.2929 4L17.4645 6.82843C17.2692 7.02369 17.2692 7.34027 17.4645 7.53554C17.6597 7.7308 17.9763 7.7308 18.1716 7.53554L21.3536 4.35356ZM-4.37114e-08 4.5L21 4.5L21 3.5L4.37114e-08 3.5L-4.37114e-08 4.5Z"
+                            fill="currentColor"
+                          ></path>
+                        </svg>
+                        <svg
+                          width="22"
+                          height="8"
+                          viewBox="0 0 22 8"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M21.3536 4.35356C21.5488 4.15829 21.5488 3.84171 21.3536 3.64645L18.1716 0.464468C17.9763 0.269205 17.6597 0.269205 17.4645 0.464468C17.2692 0.65973 17.2692 0.976312 17.4645 1.17157L20.2929 4L17.4645 6.82843C17.2692 7.02369 17.2692 7.34027 17.4645 7.53554C17.6597 7.7308 17.9763 7.7308 18.1716 7.53554L21.3536 4.35356ZM-4.37114e-08 4.5L21 4.5L21 3.5L4.37114e-08 3.5L-4.37114e-08 4.5Z"
+                            fill="currentColor"
+                          ></path>
+                        </svg>
+                      </span>
+                    </button>
+                  </div>
                 </form>
               </div>
             </div>
@@ -83,9 +97,14 @@ const Contact = () => {
                     Online Contact
                   </h3>
                   <p>
-                    Ta-134/A, Gulshan Badda Link <br />
-                    Rd, Dhaka. BD 1234 <br />
-                    (+880)52462545632
+                  6 Gething Crescent, Bowden South Australia <br />
+                  5007, Australia<br />
+                  (08) 8123 4362
+                  </p>
+                  <p>
+                  197A Ladywood Rd, Modbury Heights South Australia<br />
+                  5092, Australia<br />
+                  0425 491 977
                   </p>
                 </div>
                 <div className="tp-ct-info pt-60 pl-50 pb-35">
@@ -96,8 +115,9 @@ const Contact = () => {
                     Opening Hours
                   </h3>
                   <p>
-                    Office Hours: 8AM - 11PM <br />
-                    Friday - Wekend Day
+                    Office Hours: 9AM - 5PM <br />
+                    Monday-Friday<br/>
+                    <br/>
                   </p>
                 </div>
                 <div className="tp-ct-info pt-60 pl-50 pb-50 black-bg-2">

@@ -1,6 +1,6 @@
 import React from "react";
 import Contact from "../../common/Contact/Contact";
-import FooterThree from "../../common/Footer/FooterThree";
+import Footer from "../../common/Footer/Footer";
 import Menu from "../../common/Menu/Menu";
 import ServiceDetailsAbout from "./ServiceDetailsAbout";
 import ServiceDetailsBanner from "./ServiceDetailsBanner";
@@ -12,7 +12,7 @@ const ServiceDetails = () => {
       <ServiceDetailsBanner />
       <ServiceDetailsAbout />
       <Contact />
-      <FooterThree />
+      <Footer/>
     </>
   );
 };

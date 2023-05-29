@@ -62,25 +62,25 @@ const Services = () => {
             </div>
           </div>
           <div className="row">
-            <ServiceItem
-              icon="pe-7s-arc"
-              title="Branding"
-              desc="Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Nibh nisl id venenatis sey."
-            />
-            <ServiceItem
-              icon="pe-7s-cloud-download"
-              title="Management"
-              desc="Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Nibh nisl id venenatis sey."
-            />
-            <ServiceItem
-              icon="pe-7s-disk"
-              title="Development"
-              desc="Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Nibh nisl id venenatis sey."
-            />
-            <ServiceItem
+          <ServiceItem
               icon="pe-7s-hammer"
-              title="Delevery"
-              desc="Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Nibh nisl id venenatis sey."
+              title="Taxation"
+              desc="Maximize your tax benefits with our comprehensive taxation services for individuals and businesses."
+            />
+            <ServiceItem
+              icon="pe-7s-calculator"
+              title="Accounting"
+              desc="Unlock the potential of our comprehensive accounting solutions for precise financial management."
+            />
+            <ServiceItem
+              icon="pe-7s-culture"
+              title="Xero Training"
+              desc="Master Xero effortlessly with our expert training programs for efficient financial management and bookkeeping."
+            />
+            <ServiceItem
+              icon="pe-7s-notebook"
+              title="Bookkeeping"
+              desc="Simplify your bookkeeping tasks with our reliable services for accurate financial record-keeping and reporting."
             />
             <div className="text-center mt-60">
               <Link to="/service" className="tp-btn-border">

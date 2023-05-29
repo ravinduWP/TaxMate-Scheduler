@@ -6,7 +6,7 @@ const ContactInfo = () => {
       <div className="contact-from-section pt-140">
         <div className="container">
           <div className="row">
-            <div className="col-lg-4">
+            <div className="col-lg-3">
               <div className="ct-info__box text-center pt-50 pb-50 mb-30">
                 <span className="mb-25 d-inline-block">
                   <svg
@@ -22,13 +22,35 @@ const ContactInfo = () => {
                     />
                   </svg>
                 </span>
-                <h3 className="ct-info__box-title">Address line</h3>
+                <h3 className="ct-info__box-title">Office</h3>
                 <p className="p-0">
-                  Bowery St, New York, NY <br /> 10013,USA
+                6 Gething Crescent, Bowden <br />South Australia 5007, Australia
                 </p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-3">
+              <div className="ct-info__box text-center pt-50 pb-50 mb-30">
+                <span className="mb-25 d-inline-block">
+                  <svg
+                    width="42"
+                    height="62"
+                    viewBox="0 0 42 62"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M21.002 2.06609C31.4232 2.06609 39.9024 10.4099 39.9024 20.6667C39.9024 23.9286 39.0239 27.1421 37.3616 29.9679L21 57.8659L4.63647 29.966C2.97608 27.144 2.09764 23.9286 2.09764 20.6667C2.09764 10.4099 10.5768 2.06609 21 2.06609H21.002ZM21.002 27.898C25.0554 27.898 28.3506 24.6535 28.3506 20.6667C28.3506 16.6799 25.0535 13.4354 21.002 13.4354C16.9485 13.4354 13.6514 16.6799 13.6514 20.6667C13.6514 24.6535 16.9485 27.898 21.002 27.898ZM21.002 0C9.40293 0 0 9.25474 0 20.6667C0 24.4364 1.03011 27.958 2.82048 31.001C9.92003 43.1068 13.9005 49.8941 21 62L39.1795 31.001C40.9699 27.958 42 24.4364 42 20.6667C42 9.25474 32.5971 0 21 0H21.002ZM21.002 25.8319C18.1027 25.8319 15.751 23.5196 15.751 20.6667C15.751 17.8156 18.1027 15.5015 21.002 15.5015C23.9012 15.5015 26.251 17.8156 26.251 20.6667C26.251 23.5196 23.9012 25.8319 21.002 25.8319Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </span>
+                <h3 className="ct-info__box-title">Home Office</h3>
+                <p className="p-0">
+                197A Ladywood Rd, Modbury Heights<br/>South Australia 5092, Australia
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-3">
               <div className="ct-info__box text-center pt-50 pb-50 mb-30">
                 <span className="mb-25 d-inline-block">
                   <svg
@@ -47,12 +69,12 @@ const ContactInfo = () => {
                 </span>
                 <h3 className="ct-info__box-title">Phone Number</h3>
                 <p className="p-0">
-                  <a href="tel:+1255-568-6523">+1255 - 568 - 6523</a> <br />
-                  <a href="tel:+1255-568-6523">+1255 - 568 - 6523</a>
+                <a href="tel:0881234362 ">office: (08) 8123 4362 </a> <br />
+                <a href="tel:0425491977">Mobile: 0425 491 977 </a>
                 </p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-3">
               <div className="ct-info__box text-center pt-50 pb-50 mb-30">
                 <span className="mb-25 d-inline-block">
                   <svg
@@ -149,13 +171,13 @@ const ContactInfo = () => {
         <div className="tp-ct-map">
           <iframe
             title="map"
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6317.73017726894!2d90.36757560194341!3d23.832698085391147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1653563681792!5m2!1sen!2sbd"
+            src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d104714.45773678155!2d138.51362249850675!3d-34.898247412201385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x6ab0c8c69fa5f271%3A0x88cfb9ed62844b50!2s6%20Gething%20Cres%2C%20Bowden%20SA%205007%2C%20Australia!3m2!1d-34.898267499999996!2d138.5836626!5e0!3m2!1sen!2slk!4v1685269158879!5m2!1sen!2slk"
             style={{ border: "0" }}
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
-        </div>
+          </div>
       </div>
     </>
   );

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -12,91 +13,63 @@ const Footer = () => {
               <div className="container">
                 <div className="tp-footer-border pt-60 pb-30">
                   <div className="row">
-                    <div className="col-lg-3 col-md-6">
+                    <div className="col-lg-4 col-md-6">
                       <div className="tp-footer__widget  pb-30">
                         <h3 className="tp-footer__widget-title">
-                          Our Location
+                          Our Services
                         </h3>
                         <ul>
                           <li>
-                            <a href="#">London</a>
+                            <Link to="/Service">Taxation</Link>
                           </li>
                           <li>
-                            <a href="#">America</a>
+                            <Link to="/Service">Accounting</Link>
                           </li>
                           <li>
-                            <a href="#">Constarica</a>
+                            <Link to="/Service">Xero Training</Link>
                           </li>
                           <li>
-                            <a href="#">Germany</a>
-                          </li>
-                          <li>
-                            <a href="#">India</a>
+                            <Link to="/Service">Bookkeeping & Payroll services </Link>
                           </li>
                         </ul>
                       </div>
                     </div>
-                    <div className="col-lg-3 col-md-6">
+                    <div className="col-lg-4 col-md-6">
                       <div className="tp-footer__widget pb-30">
-                        <h3 className="tp-footer__widget-title">Our Service</h3>
-                        <ul>
-                          <li>
-                            <a href="#">Tax strategy</a>
-                          </li>
-                          <li>
-                            <a href="#">Financial advices</a>
-                          </li>
-                          <li>
-                            <a href="#">Insurance strategy</a>
-                          </li>
-                          <li>
-                            <a href="#">Manage investment</a>
-                          </li>
-                        </ul>
+                        
+                        
+                        
                       </div>
                     </div>
-                    <div className="col-lg-3 col-md-6 ">
-                      <div className="tp-footer__widget  pb-30">
-                        <h3 className="tp-footer__widget-title">Quick Links</h3>
-                        <ul>
-                          <li>
-                            <a href="#">Our Team</a>
-                          </li>
-                          <li>
-                            <a href="#">Faq</a>
-                          </li>
-                          <li>
-                            <a href="#">Portfolio</a>
-                          </li>
-                          <li>
-                            <a href="#">Service</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div className="col-lg-3 col-md-6">
+                    
+                    <div className="col-lg-4 col-md-6">
                       <div className="tp-footer__widget  pb-30">
                         <h3 className="tp-footer__widget-title">Quick Links</h3>
                         <ul>
                           <li>
                             <a href="#">
-                              27 Division St, New York, NY 10002, USA
+                              6 Gething Crescent, Bowden South Australia 5007, Australia
                             </a>
                           </li>
                           <li>
-                            <a href="tel:+88015569569365">(+880)52462545632</a>
+                            <a href="#">
+                            197A Ladywood Rd, Modbury Heights South Australia 5092, Australia
+                            </a>
                           </li>
+                          <li>
+                            <a href="tel:0881234362 ">office: (08) 8123 4362 </a>
+                            <a href="tel:0425491977" className="ml-5">Mobile: 0425 491 977 </a>
+                          </li>
+                          
                           <li>
                             <a href="mailto:support@example.com">
                               support@example.com
                             </a>
                           </li>
                           <li>
-                            <span> Office Hours: 9AM - 4PM</span>
+                            <span> Office Hours: 9AM - 5PM</span>
                           </li>
-                          <li>
-                            <span> Friday - Wekend Day</span>
-                          </li>
+                          
                         </ul>
                       </div>
                     </div>
@@ -115,7 +88,7 @@ const Footer = () => {
               <div className="col-md-8 col-12">
                 <div className="tp-copyrigh-text mb-30">
                   <span>
-                    © {new Date().getFullYear()} Arvilax - Business Consulting . All Rights Reserved.
+                    © {new Date().getFullYear()} AMA TAX ACCOUNTANTS & BOOKKEEPERS . All Rights Reserved.
                   </span>
                 </div>
               </div>

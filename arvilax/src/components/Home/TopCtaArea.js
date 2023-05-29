@@ -21,7 +21,7 @@ const TopCtaArea = () => {
                 </div>
               </div>
               <div className="col-lg-3 d-flex justify-content-lg-end">
-                <Link to="/team">
+                <Link to="/about">
                   <div className="tp-theme-btn d-flex align-items-center">
                     <div className="tp-btn-inner">
                       <p className="mb-0">Our Team</p>

@@ -6,7 +6,6 @@ const ServiceDetailsBanner = () => {
     <>
       <section
         className="breadcrumb__area include-bg breadcrumb__overlay service_banner"
-        // data-background="assets/img/breadcrumb/breadcrumb-bg-2.jpg"
         style={{
           backgroundImage: `url("assets/img/breadcrumb/breadcrumb-bg-2.jpg")`,
         }}

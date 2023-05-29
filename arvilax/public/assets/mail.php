@@ -1,5 +1,7 @@
 <?php
-
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 
 
     // Only process POST reqeusts.
@@ -28,7 +30,7 @@
 
             http_response_code(400);
 
-            echo "Please complete the form and try again.";
+            alert("Please complete the form and try again.");
 
             exit;
 
@@ -40,7 +42,7 @@
 
         // FIXME: Update this to your desired email address.
 
-        $recipient = "mdsalim400@gmail.com";
+        $recipient = "rravindur@gmail.com";
 
 
 
@@ -86,7 +88,7 @@
 
             http_response_code(200);
 
-            echo "Thank You! Your message has been sent.";
+            alert("Thank You! Your message has been sent.");
 
         } else {
 
@@ -94,7 +96,7 @@
 
             http_response_code(500);
 
-            echo "Oops! Something went wrong and we couldn't send your message.";
+            alert("Oops! Something went wrong and we couldn't send your message.");
 
         }
 
@@ -106,7 +108,7 @@
 
         http_response_code(403);
 
-        echo "There was a problem with your submission, please try again.";
+        alert( "There was a problem with your submission, please try again.");
 
     }
 

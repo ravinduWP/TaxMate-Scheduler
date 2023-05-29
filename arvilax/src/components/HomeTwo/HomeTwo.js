@@ -6,7 +6,7 @@ import Menu from "../common/Menu/Menu";
 import Testimonial from "../common/Testimonial/Testimonial";
 import BlogHomeTwo from "./BlogHomeTwo";
 import GalleryHomeTwo from "./GalleryHomeTwo";
-import Services from "./Services";
+import Services from "../Home/Services";
 import SliderHomeTwo from "./SliderHomeTwo";
 import TopCategoryHomePageTwo from "./TopCategoryHomePageTwo";
 import TopCtaAreaTwo from "./TopCtaAreaTwo";

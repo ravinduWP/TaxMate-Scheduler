@@ -15,16 +15,18 @@ const TopAbout = () => {
                     we increase your business
                   </span>
                   <h2 className="tp-section-title pt-25 mb-30">
-                    Don’t worry Your project in the right hands
+                  Relax, your future tax-related requirements will be in safe hands
                   </h2>
                   <p>
-                  trust our expert tax consultants to ensure your business's success.
-                   From strategy to delivery, we provide tailored solutions for financial planning and regulatory compliance.
-                   
+                  We can replace your back office with accounting and bookkeeping support. 
+                  When it comes to complex issues, rely on us. 
+                  
                   </p>
                   <p className="pt-10">
-                  With our up-to-date knowledge and personalized guidance, minimize tax liability and maximize efficiency.
-                   Partner with us for a proactive approach that unlocks growth opportunities.
+                  SA Tax & Bookkeeping Services specialises in a variety of Tax, 
+                  BAS and Bookkeeping services with outstanding support.
+                   We understand how busy you are, and with our expertise 
+                   we can help you to minimise Tax, grow your business and save your money. 
                   </p>
                 </div>
                 <div className="mt-45 mb-30">

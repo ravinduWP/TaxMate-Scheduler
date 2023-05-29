@@ -2,46 +2,59 @@
     "brands" : [
         {
             "id": 1,
-            "img": "../assets/img/clinet/client-1.jpg"
+            "img": "../assets/img/logo/IPA.png",
+            "link":"https://www.publicaccountants.org.au/about/brand"
         } ,      
         {
             "id": 2,
-            "img": "../assets/img/clinet/client-2.png"
+            "img": "../assets/img/logo/Xero.png",
+            "link":"https://central.xero.com/s/article/Badges-for-Xero-partners"
         } ,      
         
         {
             "id": 3,
-            "img": "../assets/img/clinet/client-3.png"
+            "img": "../assets/img/logo/ICB_Crest.png",
+            "link":"https://www.icbglobal.org/resources/running-a-practice/setting-up-your-business/using-the-icb-crest"
         } ,      
         {
             "id": 4,
-            "img": "../assets/img/clinet/client-4.png"
+            "img": "../assets/img/logo/asic.jpg",
+            "link":""
         } ,      
         {
             "id": 5,
-            "img": "../assets/img/clinet/clinet-5.png"
+            "img": "../assets/img/logo/tax-agent.jpg",
+            "link":"https://www.tpb.gov.au/home"
+
         } ,      
          {
             "id": 6,
-            "img": "../assets/img/clinet/client-1.jpg"
+            "img": "../assets/img/logo/IPA.png",
+            "link":"https://www.publicaccountants.org.au/about/brand"
         } ,      
+              
         {
             "id": 7,
-            "img": "../assets/img/clinet/client-2.png"
+            "img": "../assets/img/logo/Xero.png",
+            "link":"https://central.xero.com/s/article/Badges-for-Xero-partners"
         } ,      
         
         {
             "id": 8,
-            "img": "../assets/img/clinet/client-3.png"
+            "img": "../assets/img/logo/ICB_Crest.png",
+            "link":"https://www.icbglobal.org/resources/running-a-practice/setting-up-your-business/using-the-icb-crest"
         } ,      
         {
             "id": 9,
-            "img": "../assets/img/clinet/client-4.png"
+            "img": "../assets/img/logo/asic.jpg",
+            "link":""
         } ,      
         {
             "id": 10,
-            "img": "../assets/img/clinet/clinet-5.png"
-        }     
+            "img": "../assets/img/logo/tax-agent.jpg",
+            "link":"https://www.tpb.gov.au/home"
+
+        }      
         
     ]
 }
