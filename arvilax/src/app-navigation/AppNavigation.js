@@ -19,6 +19,7 @@ import Service from '../components/Pages/Service/Service';
 import ServiceDetails from '../components/Pages/ServiceDetails/ServiceDetails';
 import TeamDetails from '../components/Pages/TeamDetails/TeamDetails';
 import TeamPage from '../components/Pages/TeamPage/TeamPage';
+import EventForm from '../components/Pages/Appointments/EventForm';
 
 const AppNavigation = () => {
   return (
@@ -40,6 +41,7 @@ const AppNavigation = () => {
         <Route path="/portfolio-details" element={<PortfolioDetails />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog-details" element={<BlogDetails />} />
+        <Route path="/appointment" element={<EventForm/>} />
       </Routes>
       <BackToTop/>
     </ContextProvider>

@@ -40,7 +40,7 @@ const Menus = () => {
         <Link to="/contact">Contact Us</Link>
       </li>
       <li>
-        <Link to="/">
+        <Link to="/appointment">
           <button className={`btn btn-lg  ${isActivePage("/") ? "btn-outline-light" : "btn-outline-dark"}`}>
             Book An Appointment
           </button>

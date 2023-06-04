@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import MobileMenu from "./MobileMenu";
+// import MobileMenu from "./MobileMenu";
 import MobileMenus from "./MobileMenus";
 
 const OffCanvas = ({ setOffCanvas, isOffCanvas }) => {
@@ -75,7 +75,7 @@ const OffCanvas = ({ setOffCanvas, isOffCanvas }) => {
           <h3 className="tp-footer__widget-title">Quick Links</h3>
           <ul>
             <li>
-            <a href="#"> 6 Gething Crescent, Bowden South Australia 5007, Australia</a>
+            <a href="#"> 6 Gething Crescent, Bowden South Australia</a>
             </li>
             <li>
             <a href="tel:0881234362 ">office: (08) 8123 4362 </a>

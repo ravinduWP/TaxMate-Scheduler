@@ -16,11 +16,7 @@
             "img": "../assets/img/logo/ICB_Crest.png",
             "link":"https://www.icbglobal.org/resources/running-a-practice/setting-up-your-business/using-the-icb-crest"
         } ,      
-        {
-            "id": 4,
-            "img": "../assets/img/logo/asic.jpg",
-            "link":""
-        } ,      
+                 
         {
             "id": 5,
             "img": "../assets/img/logo/tax-agent.jpg",
@@ -44,11 +40,7 @@
             "img": "../assets/img/logo/ICB_Crest.png",
             "link":"https://www.icbglobal.org/resources/running-a-practice/setting-up-your-business/using-the-icb-crest"
         } ,      
-        {
-            "id": 9,
-            "img": "../assets/img/logo/asic.jpg",
-            "link":""
-        } ,      
+              
         {
             "id": 10,
             "img": "../assets/img/logo/tax-agent.jpg",

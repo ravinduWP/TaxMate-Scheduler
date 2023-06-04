@@ -24,7 +24,7 @@ const ContactInfo = () => {
                 </span>
                 <h3 className="ct-info__box-title">Office</h3>
                 <p className="p-0">
-                6 Gething Crescent, Bowden <br />South Australia 5007, Australia
+                6 Gething Crescent, Bowden <br />South Australia
                 </p>
               </div>
             </div>
@@ -46,7 +46,7 @@ const ContactInfo = () => {
                 </span>
                 <h3 className="ct-info__box-title">Home Office</h3>
                 <p className="p-0">
-                197A Ladywood Rd, Modbury Heights<br/>South Australia 5092, Australia
+                197A Ladywood Rd, Modbury Heights<br/>South Australia
                 </p>
               </div>
             </div>

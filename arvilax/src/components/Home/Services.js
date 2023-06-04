@@ -63,7 +63,7 @@ const Services = () => {
           </div>
           <div className="row">
           <ServiceItem
-              icon="pe-7s-hammer"
+              icon="pe-7s-graph1"
               title="Taxation"
               desc="Maximize your tax benefits with our comprehensive taxation services for individuals and businesses."
             />

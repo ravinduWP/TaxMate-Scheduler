@@ -30,7 +30,7 @@ const TopAbout = () => {
                   </p>
                 </div>
                 <div className="mt-45 mb-30">
-                  <Link to="/about">
+                  <Link to="/contact">
                     <div className="tp-theme-btn d-flex align-items-center">
                       <div className="tp-btn-inner">
                         <p className="mb-0">Let’t Talk</p>

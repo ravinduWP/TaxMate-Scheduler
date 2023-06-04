@@ -9,7 +9,7 @@ const Contact = () => {
             <div className="col-12">
               <div className="tp-section-wrapper text-center pb-40">
                 <span className="tp-section-subtitle mb-25">
-                  Derect Contact
+                Direct Contact
                 </span>
                 <h2 className="tp-section-title">
                   Can’t find what are you <br />
@@ -22,7 +22,7 @@ const Contact = () => {
             <div className="col-lg-8">
               <div className="tp-contact-form tp-contact-form-2 white-bg pt-50 pl-50 pr-50 pb-55 mr-60">
                 <h4 className="tp-contact-form-title">
-                  Derect Contact with us
+                    Direct Contact with us
                 </h4>
                 <form id="contact-form" action="assets/mail.php" method="POST">
                   <input

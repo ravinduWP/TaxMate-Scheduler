@@ -48,12 +48,12 @@ const Footer = () => {
                         <ul>
                           <li>
                             <a href="#">
-                              6 Gething Crescent, Bowden South Australia 5007, Australia
+                              6 Gething Crescent, Bowden South Australia
                             </a>
                           </li>
                           <li>
                             <a href="#">
-                            197A Ladywood Rd, Modbury Heights South Australia 5092, Australia
+                            197A Ladywood Rd, Modbury Heights South Australia
                             </a>
                           </li>
                           <li>

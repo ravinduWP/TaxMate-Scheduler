@@ -19,14 +19,15 @@ const Menu = ({ header_style_2 }) => {
               : "header__transparent pr-90 pl-90"
           } header-sticky-active ${sticky ? "header-sticky" : ""}`}
         >
-          <p className={`text-center  fs-6 ${header_style_2 ? 'text-black' : 'text-white'}`}>
-  <a className="px-30" href={"tel:0881234362"}><i className="fas fa-phone px-2"></i>(08) 8123 4362</a>
-  <a className="px-30 ml-60" href={"tel:0425491977"}><i className="fas fa-mobile px-2"></i>0425 491 977</a>
-  <a className="px-30 ml-90" href={"mailto:"}><i className="fas fa-envelope px-2"></i>testmail@gmail.com</a>
-</p>
+         
 
-          <div className="header__main" id="header-sticky">
-            <div className="container-fluid">
+          <div className="header__main mb-0" id="header-sticky">
+          <p className={`text-center mt-20 fs-6 ${header_style_2 ? 'text-black' : 'text-white'}`}>
+            <a className="px-30 " href={"tel:0881234362"}><i className="fas fa-phone px-2 "></i>(08) 8123 4362</a>
+            <a className="px-30 ml-60" href={"tel:0425491977"}><i className="fas fa-mobile px-2"></i>0425 491 977</a>
+            <a className="px-30 ml-90" href={"mailto:"}><i className="fas fa-envelope px-2"></i>testmail@gmail.com</a>
+          </p>
+            <div className="container-fluid py-0">
             
               <div className="row align-items-center">
               
@@ -43,7 +44,7 @@ const Menu = ({ header_style_2 }) => {
                         alt="logo"
                       />
                     </Link> */}
-                    <h1 className={`display-5 ${header_style_2 ? 'text-black' : 'text-white'}`}> AMA TAX ACCOUNTANTS</h1>
+                    <h1 className={`display-5 ${header_style_2 ? 'text-black' : 'text-white'}`}> Ama Tax Accountants</h1>
                   </div>
                 </div>
                 <div className="col-lg-9 col-md-4 d-none d-md-block">

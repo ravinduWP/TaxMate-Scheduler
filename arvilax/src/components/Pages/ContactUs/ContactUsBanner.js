@@ -6,9 +6,9 @@ const ContactUsBanner = () => {
     <>
       <section
         className="breadcrumb__area include-bg breadcrumb__overlay contact_us_banner"
-        // data-background="assets/img/breadcrumb/breadcrumb-bg-2.jpg"
+        // data-background="assets/img/breadcrumb/bg-1.jpg"
         style={{
-          backgroundImage: `url("assets/img/breadcrumb/breadcrumb-bg-2.jpg")`,
+          backgroundImage: `url("assets/img/breadcrumb/bg-1.jpg")`,
         }}
       >
         <div className="container">
