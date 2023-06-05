@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 // single service
-export function ServiceItem({ icon, title, desc }) {
+export function ServiceItem({ icon, title, desc,serviceId }) {
   return (
     <div className="col-xl-3 col-md-6">
       <div className="tp-service text-center white-bg pt-60 pb-45 pl-25 pr-25 mb-30">
@@ -10,10 +10,10 @@ export function ServiceItem({ icon, title, desc }) {
           <i className={icon}></i>
         </div>
         <h3 className="tp-service__title pt-40 pb-25">
-          <Link to="/service-details">{title}</Link>
+          <Link to={serviceId}>{title}</Link>
         </h3>
         <p>{desc}</p>
-        <Link className="tp-btn-sm-black" to="/service-details">
+        <Link className="tp-btn-sm-black" to={serviceId}>
           <span>
             <svg
               width="36"
@@ -66,21 +66,25 @@ const Services = () => {
               icon="pe-7s-graph1"
               title="Taxation"
               desc="Maximize your tax benefits with our comprehensive taxation services for individuals and businesses."
+              serviceId="/service-details/service1"
             />
             <ServiceItem
               icon="pe-7s-calculator"
               title="Accounting"
               desc="Unlock the potential of our comprehensive accounting solutions for precise financial management."
+              serviceId="/service-details/service2"
             />
             <ServiceItem
               icon="pe-7s-culture"
               title="Xero Training"
               desc="Master Xero effortlessly with our expert training programs for efficient financial management and bookkeeping."
+              serviceId="/service-details/service3"
             />
             <ServiceItem
               icon="pe-7s-notebook"
               title="Bookkeeping"
               desc="Simplify your bookkeeping tasks with our reliable services for accurate financial record-keeping and reporting."
+              serviceId="/service-details/service4"
             />
             <div className="text-center mt-60">
               <Link to="/service" className="tp-btn-border">

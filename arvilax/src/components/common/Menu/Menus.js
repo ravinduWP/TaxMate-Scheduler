@@ -20,19 +20,22 @@ const Menus = () => {
         <Link to="/service">Services</Link>
         <ul className="submenu">
           <li>
-            <Link to="/service-details">Taxation</Link>
+            <Link to="/service-details/service1">Taxation</Link>
           </li>
           <li>
-            <Link to="/service-details">Financial accounts</Link>
+            <Link to="/service-details/service2">Financial accounts</Link>
           </li>
           <li>
-            <Link to="/service-details">Xero Training</Link>
+            <Link to="/service-details/service3">Xero Training</Link>
           </li>
           <li>
-            <Link to="/service-details">Bookkeeping & Payroll services</Link>
+            <Link to="/service-details/service4">Bookkeeping</Link>
           </li>
           <li>
-            <Link to="/service-details">Other services</Link>
+            <Link to="/service-details/service5">Payroll services</Link>
+          </li>
+          <li>
+            <Link to="/service-details/service6">Other services</Link>
           </li>
         </ul>
       </li>

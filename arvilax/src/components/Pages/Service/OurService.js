@@ -19,47 +19,39 @@ const OurService = () => {
               icon="pe-7s-graph1"
               title="Taxation"
               desc="Maximize your tax benefits with our comprehensive taxation services for individuals and businesses."
+              serviceId="/service-details/service1"
             />
             <ServiceItem
               icon="pe-7s-calculator"
               title="Accounting"
               desc="Unlock the potential of our comprehensive accounting solutions for precise financial management."
+              serviceId="/service-details/service2"
             />
             <ServiceItem
               icon="pe-7s-culture"
               title="Xero Training"
               desc="Master Xero effortlessly with our expert training programs for efficient financial management and bookkeeping."
+              serviceId="/service-details/service3"
             />
             <ServiceItem
               icon="pe-7s-notebook"
               title="Bookkeeping"
               desc="Simplify your bookkeeping tasks with our reliable services for accurate financial record-keeping and reporting."
+              serviceId="/service-details/service4"
             />
             <ServiceItem
             icon="pe-7s-graph"
             title="Payroll services "
             desc="Streamline your payroll processes effortlessly with our reliable and comprehensive payroll services solutions."
+            serviceId="/service-details/service5"
           />
             <ServiceItem
               icon="pe-7s-umbrella"
               title="Other services"
               desc="Discover a world of financial solutions. Come explore our diverse range of services tailored for your needs."
+              serviceId="/service-details/service6"
             />
-            {/* <ServiceItem
-              icon="pe-7s-graph3"
-              title="Analysis"
-              desc="Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Nibh nisl id venenatis sey."
-            />
-            <ServiceItem
-              icon="pe-7s-cup"
-              title="Design"
-              desc="Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Nibh nisl id venenatis sey."
-            />
-            <ServiceItem
-              icon="pe-7s-config"
-              title="Digital Service"
-              desc="Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Nibh nisl id venenatis sey."
-            /> */}
+          
           </div>
         </div>
       </div>
