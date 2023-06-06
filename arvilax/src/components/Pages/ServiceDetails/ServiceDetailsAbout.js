@@ -33,12 +33,12 @@ const ServiceDetailsAbout = (props) => {
                 <p>{pagedata.para2}</p>
 
                 <h4 className="tp-sv__subtitle">
-                services We simply offer following 
+                We simply offer following services 
                 </h4>
                   <ul className="list-group">
-                  {/* {serviceslist.map((service, index) => (
+                  {pagedata.serviceList.map((service, index) => (
                     <li className="list-group-item" key={index}>{service}</li>
-                  ))} */}
+                  ))}
                     
                   </ul>
               </div>

@@ -98,12 +98,10 @@ const Contact = () => {
                   </h3>
                   <p>
                   6 Gething Crescent, Bowden South Australia <br />
-                  5007, Australia<br />
                   (08) 8123 4362
                   </p>
                   <p>
                   197A Ladywood Rd, Modbury Heights South Australia<br />
-                  5092, Australia<br />
                   0425 491 977
                   </p>
                 </div>
@@ -122,11 +120,7 @@ const Contact = () => {
                 </div>
                 <div className="tp-ct-info pt-60 pl-50 pb-50 black-bg-2">
                   <div className="tp-ct-info-icons">
-                    <span>
-                      <a href="#">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                    </span>
+                   
                     <span>
                       <a href="#">
                         <i className="fab fa-facebook-f"></i>
