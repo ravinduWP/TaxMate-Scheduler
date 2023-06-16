@@ -7,7 +7,7 @@ import ServiceDetailsBanner from "./ServiceDetailsBanner";
 import { useParams } from "react-router-dom";
 
 const ServiceDetails = () => {
-  // console.log(useParams().id);
+
 
   return (
     <>

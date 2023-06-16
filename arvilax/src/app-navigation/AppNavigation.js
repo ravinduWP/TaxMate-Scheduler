@@ -33,7 +33,7 @@ const AppNavigation = () => {
         <Route path="/team" element={<TeamPage/>} />
         <Route path="/team-details" element={<TeamDetails />} />
         <Route path="/service" element={<Service />} />
-        <Route path="/service-details/:id"  element={<ServiceDetails />} />
+        <Route path="/service-details/:id"  element={<ServiceDetails header_style_2={true} />}  />
         <Route path="/price" element={<Price/>} />
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/faq" element={<FAQ />} />

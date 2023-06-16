@@ -82,7 +82,7 @@ const OffCanvas = ({ setOffCanvas, isOffCanvas }) => {
                             <a href="tel:0425491977" className="ml-5">Mobile: 0425 491 977 </a>
             </li>
             <li>
-              <Link to="mailto:support@example.com">support@example.com</Link>
+              <Link to="mailto:ama@taxsa.com.au">ama@taxsa.com.au</Link>
             </li>
             <li>
               <span> Office Hours: 9AM - 5PM</span>

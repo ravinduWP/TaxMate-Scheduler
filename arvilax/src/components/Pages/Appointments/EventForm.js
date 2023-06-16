@@ -1,66 +1,49 @@
-import React, { useState } from 'react';
+import { AppBar, Box,Checkbox,Divider,ListItemIcon,ListItemText,MenuItem,MenuList,Toolbar, Typography} from '@mui/material';
+import { auto } from '@popperjs/core';
+import React from 'react';
+
+const options = [
+  'Taxation',
+  'Financial accounts',
+  'Xero Training',
+  'Bookkeeping',
+  'Payroll service',
+  'Other services',
+];
+
 
 const EventForm = () => {
-  const [summary, setSummary] = useState('');
-  const [description, setDescription] = useState('');
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-
-    // Create an object with the event details
-    const event = {
-      summary,
-      description,
-    };
-   
-    // Send the event details to the backend API
-    try {
-      const response = await fetch('http://localhost:3001/api/createEvent', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(event),
-      });
-      console.log(JSON.stringify(event));
-      if (response.ok) {
-        console.log('Event created successfully!');
-        // Reset the form after successful submission
-        setSummary('');
-        setDescription('');
-      } else {
-        console.log('Failed to create event.');
-      }
-    } catch (error) {
-      console.log('Error:', error);
-    }
+  const [selectedIndex, setSelectedIndex] = React.useState();
+  const handleMenuItemClick = ( index) => {
+    setSelectedIndex(index);
   };
-
+  
   return (
-    <div>
-      <h2>Create Event</h2>
-      <form onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="summary">Summary:</label>
-          <input
-            type="text"
-            id="summary"
-            value={summary}
-            onChange={(e) => setSummary(e.target.value)}
-          />
-        </div>
-        <div>
-          <label htmlFor="description">Description:</label>
-          <input
-            type="text"
-            id="description"
-            value={description}
-            onChange={(e) => setDescription(e.target.value)}
-          />
-        </div>
-        <button type="submit">Create</button>
-      </form>
-    </div>
+   <div>
+     <AppBar position="static" variant='elevation' style={{backgroundColor:'#FFFFFF'}}>
+        <Toolbar>
+
+          <img src='assets/img/logo/logo.png' alt='logo' style={{width:'260px', height:'130px', margin:'auto' }}/>
+          
+        </Toolbar>
+      </AppBar>
+      <Box width={800} height={auto} mx={auto} mt={2} p={3} textAlign={'center'}  borderRadius={2} bgcolor={'#FAF9F6'}> 
+      <Typography align='center' >Select the Service you want</Typography>     
+      <MenuList sx={{  p: 2,width:'400px',margin:'auto',backgroundColor:'#FFFFFF'}} >
+      {options.map((option, index) => (
+          <MenuItem
+            key={option}
+            selected={index === selectedIndex}
+            onClick={(event) => handleMenuItemClick( index)}
+            sx={{p: 2}}
+            
+          >
+            {option}
+          </MenuItem>
+        ))}
+      </MenuList>
+      </Box>
+   </div>
   );
 };
 
