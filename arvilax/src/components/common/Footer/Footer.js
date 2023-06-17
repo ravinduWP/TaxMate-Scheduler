@@ -36,8 +36,9 @@ const Footer = () => {
                     </div>
                     <div className="col-lg-4 col-md-6">
                       <div className="tp-footer__widget pb-30">
-                        
-                        
+                        {/* <ul>
+                        <li><Link to='/'>Home</Link></li>
+                        </ul> */}
                         
                       </div>
                     </div>
@@ -88,7 +89,7 @@ const Footer = () => {
               <div className="col-md-8 col-12">
                 <div className="tp-copyrigh-text mb-30">
                   <span>
-                    © {new Date().getFullYear()} AMA TAX ACCOUNTANTS & BOOKKEEPERS . All Rights Reserved.
+                    © {new Date().getFullYear()} Ama Tax accounts and Bookkeepers . All Rights Reserved.
                   </span>
                 </div>
               </div>

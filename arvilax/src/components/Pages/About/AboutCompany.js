@@ -140,13 +140,13 @@ const AboutCompany = () => {
                 <div className="dots-img">
                   <img src="assets/img/about/dot.jpg" alt="" />
                 </div>
-                <div className="about-info-box d-flex flex-column justify-content-center text-center">
+                {/* <div className="about-info-box d-flex flex-column justify-content-center text-center">
                   <h3 className="box-title">24</h3>
                   <h4 className="box-subtitle">
                     Year of <br />
                     Experience
                   </h4>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
