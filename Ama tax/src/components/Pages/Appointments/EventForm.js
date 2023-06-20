@@ -348,7 +348,7 @@ const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
             <Typography mb={7}>{message}</Typography>
             <Button variant='outlined' endIcon={<ArrowForwardIosIcon />} onClick={handlelocationNext}>next</Button>
           </Box>}
-          {servicetype && <Box {...boxStyles} sx={{ width: isMobile ? '100%' : '00px', margin: 'auto' }}>
+          {servicetype && <Box {...boxStyles}>
             <Typography align='center' variant='h6'>Select Service</Typography>
             <MenuList sx={{ p: 2, width: '500px', margin: 'auto' }}>
               {options.map((option, index) => (

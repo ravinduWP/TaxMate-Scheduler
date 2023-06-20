@@ -37,6 +37,50 @@
           "Establishing tax compliance business and investment structures"
 
         ]
+      },
+      {
+        "id": "service3",
+        "title": "Bookkeeping and Payroll",
+        "para1": "We understand that managing your business's financial records can be a daunting task. That's why we offer comprehensive bookkeeping and payroll services to help you stay organized, compliant, and focused on what matters most – growing your business.",
+        "para2": "Our team of experienced tax accountants and financial professionals is dedicated to providing accurate and timely bookkeeping solutions tailored to your unique needs. Whether you're a small startup, a growing business, or an established enterprise, we have the expertise to handle your financial records with precision and care.",
+        "serviceList": [
+          
+          "Accounts payable",
+          "Accounts receivable" ,
+          "Bank Reconciliations Payroll processing",  
+          "Cash flow and budget preparation",  
+          "Single Touch Payroll",
+          "PAYG - individuals and business"
+
+        ]
+      },
+      {
+        "id": "service4",
+        "title": "Software Setup and Training",
+        "para1": "We understand the importance of efficient bookkeeping software for your business, and we are here to help you tailor it to your specific needs. Our team of experienced tax accountants specializes in software setup and training, ensuring that you have the right tools and knowledge to manage your finances effectively.",
+        "para2": "We are dedicated to providing top-notch software setup and training services to help you optimize your bookkeeping processes. With our expertise and personalized approach, you can focus on growing your business while we take care of your financial software needs. Contact us today to discuss how we can assist you in tailoring and mastering your bookkeeping software.",
+        "serviceList": [
+          
+          "Tailoring bookkeeping software to suit your business",
+          "XERO software setup and training" ,
+          "MYOB, QuickBooks training"
+
+        ]
+      },
+      {
+        "id": "service6",
+        "title": "Other services",
+        "para1": "Whether you're starting a new venture or need assistance with ongoing compliance, we've got you covered. Our expertise includes Australian Company Number (ACN) registration, Business Name and Number (ABN) registration, as well as setting up trusts, partnerships, and other small business entities. We understand the intricacies of the local business landscape, ensuring a smooth and efficient process.",
+        "para2": " Trust us to handle your superannuation obligations, offering compliance guidance and expert advice. Additionally, we specialize in annual reconciliations for Return to Work SA (formerly Workcover), ensuring your business meets its obligations. Let us support your business growth and success today.",
+        "serviceList": [
+          
+          "Australian Company Number registration (ACN)",
+          "Business Name and Number (ABN) registration " ,
+          "Trust, Partnership and other small business set-up and registration",
+          "Superannuation Obligations– compliance and advice",
+          "Return to Work SA (formerly Workcover) – annual reconciliations."
+
+        ]
       }
     ]
   }

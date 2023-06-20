@@ -30,13 +30,13 @@ const OurService = () => {
             <ServiceItem
               icon="pe-7s-notebook"
               title="Bookkeeping & Payroll"
-              desc="Master Xero effortlessly with our expert training programs for efficient financial management and bookkeeping."
+              desc="Simplify your bookkeeping tasks with our reliable services for accurate financial record-keeping and reporting."
               serviceId="/service-details/service3"
             />
             <ServiceItem
               icon="pe-7s-config"
               title="Software setup & training"
-              desc="Simplify your bookkeeping tasks with our reliable services for accurate financial record-keeping and reporting."
+              desc="Master Xero effortlessly with our expert training programs for efficient financial management and bookkeeping."
               serviceId="/service-details/service4"
             />
             <ServiceItem

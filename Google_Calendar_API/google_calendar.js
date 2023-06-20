@@ -28,7 +28,6 @@ app.use(express.json());
 
 app.post('/api/createEvent', async (req, res) => {
     const { summary,description,date,time,duration} = req.body;
-    console.log(req.body);
     try {
       const dateTimeString = `${date} ${time}`; 
       const startDateTime = moment(dateTimeString, 'YYYY-MM-DD HH:mm');
@@ -47,7 +46,7 @@ app.post('/api/createEvent', async (req, res) => {
       };
 
     const result = await insertEvent(event);
-      // console.log(JSON.stringify(event));
+      
     if (result) {
       res.sendStatus(200);
     } else {
