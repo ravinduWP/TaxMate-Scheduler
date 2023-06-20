@@ -22,7 +22,7 @@ const Contact = () => {
             <div className="col-lg-8">
               <div className="tp-contact-form tp-contact-form-2 white-bg pt-50 pl-50 pr-50 pb-55 mr-60">
                 <h4 className="tp-contact-form-title">
-                    Direct Contact with us
+                      Enquiries
                 </h4>
                 <form id="contact-form" action="assets/mail.php" method="POST">
                   <input

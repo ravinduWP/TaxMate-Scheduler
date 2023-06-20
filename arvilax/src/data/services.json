@@ -6,24 +6,36 @@
       "para1": "Welcome to AMA TAX ACCOUNTANTS & BOOKKEEPERS, your trusted partner in tax services. We understand that navigating the complex world of taxation can be overwhelming and time-consuming. That's where we come in. Our team of experienced tax professionals is dedicated to helping individuals and businesses achieve their financial goals while maximizing tax benefits. Whether you're a small business owner, a freelancer, or an individual taxpayer, we have tailored solutions to meet your specific needs. With our in-depth knowledge of tax laws and regulations, we ensure accurate and compliant tax preparation and filing. We stay up to date with the latest industry trends and changes, so you can have peace of mind knowing that your taxes are in capable hands. Beyond tax preparation, we offer proactive tax planning strategies to minimize your tax liabilities and maximize your deductions. Our personalized approach allows us to identify opportunities for tax savings unique to your situation.",
       "para2": "At AMA TAX ACCOUNTANTS & BOOKKEEPERS, we pride ourselves on delivering exceptional client service. We strive to build long-lasting relationships based on trust, integrity, and confidentiality. Your financial success is our priority, and we go above and beyond to provide you with the guidance and support you need. Don't let tax season stress you out. Let us handle the complexities while you focus on what you do best. Contact us today to schedule a consultation and discover how our tax services can benefit you. Together, let's navigate the tax landscape and unlock financial opportunities.",
       "serviceList": [
-        "Individuals Tax Returns",
-        "Sole Trader Tax Returns",
-        "Trust Tax Returns",
-        "Company Tax Returns",
-        "SMSF tax returns"
+        "Individuals Tax Returns", 
+          "Capital Gains Tax (CGT)",
+         " Rental Property Tax Returns ",
+          "Sole Trader Tax Returns", 
+          "Trust Tax Returns " ,
+          "Partnership Tax returns ",
+          "Company Tax Returns ",
+          "SMSF Tax returns" ,
+          "R&D Tax returns" ,
+          "Division 7A",
+          "BAS,Annual GST and IAS- preparation lodgement"
+
       ]
     },
      {
         "id": "service2",
-        "title": "Taxation",
-        "para1": "Welcome to AMA TAX ACCOUNTANTS & BOOKKEEPERS, your trusted partner in tax services. We understand that navigating the complex world of taxation can be overwhelming and time-consuming. That's where we come in. Our team of experienced tax professionals is dedicated to helping individuals and businesses achieve their financial goals while maximizing tax benefits. Whether you're a small business owner, a freelancer, or an individual taxpayer, we have tailored solutions to meet your specific needs. With our in-depth knowledge of tax laws and regulations, we ensure accurate and compliant tax preparation and filing. We stay up to date with the latest industry trends and changes, so you can have peace of mind knowing that your taxes are in capable hands. Beyond tax preparation, we offer proactive tax planning strategies to minimize your tax liabilities and maximize your deductions. Our personalized approach allows us to identify opportunities for tax savings unique to your situation.",
-        "para2": "At AMA TAX ACCOUNTANTS & BOOKKEEPERS, we pride ourselves on delivering exceptional client service. We strive to build long-lasting relationships based on trust, integrity, and confidentiality. Your financial success is our priority, and we go above and beyond to provide you with the guidance and support you need. Don't let tax season stress you out. Let us handle the complexities while you focus on what you do best. Contact us today to schedule a consultation and discover how our tax services can benefit you. Together, let's navigate the tax landscape and unlock financial opportunities.",
+        "title": "Accounting & Tax Planning",
+        "para1": "We understand the importance of accurate financial management and strategic tax planning for individuals and businesses alike. Our team of experienced tax accountants is here to assist you in navigating the complex world of accounting and taxation.",
+        "para2": "With our comprehensive range of services, we can help you streamline your financial processes, ensure compliance with tax regulations, and optimize your tax strategies to maximize savings. Whether you're a small business owner, an individual taxpayer, or a corporate entity, we have the knowledge and expertise to meet your specific needs.",
         "serviceList": [
-          "Individuals Tax Returns",
-          "Sole Trader Tax Returns",
-          "Trust Tax Returns",
-          "Company Tax Returns",
-          "SMSF tax returns"
+          "Preparation of annual financial accounts",
+          "Preparation of interim financial reports", 
+          "Preparation of Retail Trading Accounts",
+          "Preparation of Profit & Loss Accounts and Balance Sheet",
+          "Budget, forecast preparation and monitoring.",
+          "Cash flow reporting (Micro & Macro).",
+          "Tax planning and Investment analysis" ,
+          "Tax minimisation - individuals and businesses",
+          "Establishing tax compliance business and investment structures"
+
         ]
       }
     ]

@@ -106,10 +106,14 @@ h6 {
 ul {
 	margin: 0px;
 	padding: 0px;
+	
 }
 
 li {
 	list-style: none;
+}
+#service_list{
+	list-style-type:circle;
 }
 
 p {
@@ -346,6 +350,7 @@ img {
 	& ul {
 		& li {
 			display: inline-block;
+			
 
 			&:not(:last-child) {
 				margin-right: 10px;

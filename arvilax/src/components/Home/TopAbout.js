@@ -11,11 +11,9 @@ const TopAbout = () => {
             <div className="col-lg-6">
               <div className="tp-about-left pr-90">
                 <div className="tp-section-wrapper pt-5">
-                  <span className="tp-section-subtitle">
-                    we increase your business
-                  </span>
+                  
                   <h2 className="tp-section-title pt-25 mb-30">
-                  Relax, your future tax-related requirements will be in safe hands
+                  Relax, your future <br/>tax-related requirements will be in safe hands
                   </h2>
                   <p>
                   We can replace your back office with accounting and bookkeeping support. 
@@ -75,7 +73,7 @@ const TopAbout = () => {
                 <div className="tp-about-info text-center grey-bg-4">
                   <h3>24</h3>
                   <h4>
-                    Year of <br />
+                    Years of <br />
                     Experience
                   </h4>
                 </div>

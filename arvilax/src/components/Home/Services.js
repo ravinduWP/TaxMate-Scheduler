@@ -70,19 +70,19 @@ const Services = () => {
             />
             <ServiceItem
               icon="pe-7s-calculator"
-              title="Accounting"
-              desc="Unlock the potential of our comprehensive accounting solutions for precise financial management."
+              title="Accounting & Tax Planning"
+              desc="Unlock the potential of our comprehensive accounting solutions for "
               serviceId="/service-details/service2"
             />
             <ServiceItem
-              icon="pe-7s-culture"
-              title="Xero Training"
+              icon="pe-7s-notebook"
+              title="Bookkeeping & Payroll"
               desc="Master Xero effortlessly with our expert training programs for efficient financial management and bookkeeping."
               serviceId="/service-details/service3"
             />
             <ServiceItem
-              icon="pe-7s-notebook"
-              title="Bookkeeping"
+              icon="pe-7s-config"
+              title="Software setup & training"
               desc="Simplify your bookkeeping tasks with our reliable services for accurate financial record-keeping and reporting."
               serviceId="/service-details/service4"
             />

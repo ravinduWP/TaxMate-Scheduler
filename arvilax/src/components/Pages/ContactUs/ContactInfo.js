@@ -90,11 +90,12 @@ const ContactInfo = () => {
                     />
                   </svg>
                 </span>
-                <h3 className="ct-info__box-title">Mail Adress</h3>
-                <br/>
+                <h3 className="ct-info__box-title">Email</h3>
                 <p className="p-0">
                   <a href="mailto:ama@taxsa.com.au">ama@taxsa.com.au</a>
-                  
+                  <br/>
+                  <a href="mailto:ama@taxsa.com.au"></a>
+                  <br/>
                 </p>
               </div>
             </div>

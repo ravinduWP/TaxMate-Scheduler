@@ -33,14 +33,30 @@ const ServiceDetailsAbout = (props) => {
                 <p>{pagedata.para2}</p>
 
                 <h4 className="tp-sv__subtitle">
-                We simply offer following services 
+                We Offer The Following Services 
                 </h4>
-                  <ul className="list-group">
+                  {/* <ul className="list-group">
                   {pagedata.serviceList.map((service, index) => (
                     <li className="list-group-item" key={index}>{service}</li>
                   ))}
                     
+                  </ul> */}
+                  <div className="row justify-content-center">
+                <div className="col">
+                  <ul >
+                    {pagedata.serviceList.slice(0, Math.ceil(pagedata.serviceList.length / 2)).map((service, index) => (
+                      <li id="service_list" key={index}>{service}</li>
+                    ))}
                   </ul>
+                </div>
+                <div className="col">
+                  <ul >
+                    {pagedata.serviceList.slice(Math.ceil(pagedata.serviceList.length / 2)).map((service, index) => (
+                      <li id="service_list" key={index}>{service}</li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
               </div>
             </div>
           </div>

@@ -88,9 +88,6 @@ const OffCanvas = ({ setOffCanvas, isOffCanvas }) => {
               <span> Office Hours: 9AM - 5PM</span>
               <span> Monday - FriDay</span>
             </li>
-            <li>
-              
-            </li>
           </ul>
         </div>
       </div>

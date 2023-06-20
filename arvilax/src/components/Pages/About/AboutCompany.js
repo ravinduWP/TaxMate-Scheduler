@@ -9,16 +9,16 @@ const AboutCompany = () => {
             <div className="col-lg-6">
               <div className="about-details-info pr-65">
                 <div className="tp-section-wrapper">
-                  <span className="tp-section-subtitle mb-25">
-                    About our Company
+                  <span className="tp-section mb-25">
+                  
                   </span>
-                  <h2 className="tp-pt-size mb-40">
-                    Our business boasts top of the line services
-                  </h2>
+                  <h4 className="tp-pt-size mb-40">
+                   Founder and CEO
+                  </h4>
                 </div>
                 <div className="about-tb-content">
                   <nav>
-                    <div className="nav mb-30" id="nav-tab" role="tablist">
+                    {/* <div className="nav mb-30" id="nav-tab" role="tablist">
                       <button
                         className="nav-links active"
                         id="mission"
@@ -56,7 +56,7 @@ const AboutCompany = () => {
                       >
                         Our Value
                       </button>
-                    </div>
+                    </div> */}
                   </nav>
                   <div className="tab-content" id="nav-tabContent">
                     <div
@@ -66,67 +66,32 @@ const AboutCompany = () => {
                       aria-labelledby="nav-mission"
                     >
                       <p>
-                        Dolor volutpat ac tincidunt vitae semper quis lectus
-                        nulla at. Nibh nisl id venenatis a condimentum. Libero
-                        justo laoreet sit amet. Nisl nisi scelerisque sit
-                        ultrices vitae. Dolor sit amet consectetur adipiscing
-                        elit pellentesque. Phasellus egestas tellus rutrum
+                      Ama Abeywickrama is the Founder and CEO of AMA Tax Accountants and Bookkeepers. 
+                      Previously known as SA Tax and Bookkeeping Services Pty Ltd.
+                      Ama holds a masters degree in finance and a bachelor degree in commerce.
+                       Ama is also a certified Tax agent, ASIC agent and Public Accountant. 
+                       She has more than 22 years of experience in accounting and tax. 
+                       And she specialises in many different industries including but not limited to, tax preparation, accounting, and bookkeeping. 
                       </p>
 
                       <p>
-                        ullamcorper morbi tincidunt ornare massa potenti nullam
-                        ac tortor vitae purus. faucibus ornare suspendisse.
-                        Donec enim diam vulputate ut pharetra sit amet aliquam
-                        id. Eu mi bibendum neque egestas congue purus non enim
-                        praesent.Donec enim diam vulputate ut pharetra sit amet
-                        aliquam id. Eu mi bibendum neque
+                      Ama founded her firm in 2013 and currently she has two offices in Bowden and Modbury Heights. 
+                      She migrated to Australia in 2010 and started her career as a tax consultant in 2011. 
+                      She completed her bachelor’s degree in Sri Lanka and continued her studies in Australia after she migrated from Sri Lanka.
+                       She has also completed the highest studies in music, and she played violin and flute and is still continuing her vocal talent in Australia.
                       </p>
-                    </div>
-                    <div
-                      className="tab-pane fade"
-                      id="nav-vission"
-                      role="tabpanel"
-                      aria-labelledby="nav-vission-tab"
-                    >
-                      <p>
-                        Phasellus volutpat ac tincidunt vitae semper quis lectus
-                        nulla at. Libero nisl id venenatis a condimentum. Libero
-                        justo laoreet sit amet. Nisl nisi scelerisque eu
-                        ultrices vitae. Dolor sit amet consectetur adipiscing
-                        elit pellentesque. Phasellus egestas tellus rutrum
-                      </p>
+                      <h4>Qualifications & Memberships:</h4>
+                        <ol >
+                          <li>Master of Finance</li>
+                            <li>Bachelor of Commerce (Honours)</li>
+                            <li>Fellow IPA Accountant</li>
+                            <li>Registered Tax Agent</li>
+                            <li> Public Practice Certificate</li>
+                            <li> ASIC Agent</li>
+                            <li> Member of Institute of Bookkeepers</li>
+                            <li> XERO Partner</li>
+                        </ol>
 
-                      <p>
-                        ullamcorper morbi tincidunt ornare massa potenti nullam
-                        ac tortor vitae purus. faucibus ornare suspendisse.
-                        Donec enim diam vulputate ut pharetra sit amet aliquam
-                        id. Eu mi bibendum neque egestas congue purus non enim
-                        praesent.Donec enim diam vulputate ut pharetra sit amet
-                        aliquam id. Eu mi bibendum neque
-                      </p>
-                    </div>
-                    <div
-                      className="tab-pane fade"
-                      id="nav-value"
-                      role="tabpanel"
-                      aria-labelledby="nav-value-tab"
-                    >
-                      <p>
-                        Neque volutpat ac tincidunt vitae semper quis lectus
-                        nulla at. Nibh nisl id venenatis a condimentum. Libero
-                        justo laoreet sit amet. Nisl nisi scelerisque eu
-                        ultrices vitae. Dolor sit amet consectetur adipiscing
-                        elit pellentesque. Phasellus egestas tellus rutrum
-                      </p>
-
-                      <p>
-                        ullamcorper morbi tincidunt ornare massa potenti nullam
-                        ac tortor vitae purus. faucibus ornare suspendisse.
-                        Donec enim diam vulputate ut pharetra sit amet aliquam
-                        id. Eu mi bibendum neque egestas congue purus non enim
-                        praesent.Donec enim diam vulputate ut pharetra sit amet
-                        aliquam id. Eu mi bibendum neque
-                      </p>
                     </div>
                   </div>
                 </div>

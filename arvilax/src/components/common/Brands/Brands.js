@@ -59,7 +59,7 @@ const settings = {
 };
 
 const brandImageStyle = {
-  width: "200px", // Set your desired width
+  width: "250px", // Set your desired width
   height: "150px", // Set your desired height
   // objectFit: "cover", // Adjust image resizing behavior if needed
 };
@@ -67,7 +67,7 @@ const brandImageStyle = {
 const Brands = ({ style_2 = false }) => {
   return (
     <>
-      {/* <!-- brand section start --> */}
+      {/* <!-- brand section start -->*/}
 
       <div className={style_2 ? "tp-brand-area pb-140" : "brand"}>
         <div className="container">
@@ -79,7 +79,7 @@ const Brands = ({ style_2 = false }) => {
               {brands?.brands.map((brand) => (
                 <a key={brand.id} href={brand.link} target="_blank" rel="noopener noreferrer">
                   <div className="tp-brand-item text-center scale-1">
-                    <img src={brand.img} alt="" style={brandImageStyle} className="img img-thumbnail img-responsive"/>
+                    <img src={brand.img} alt="" style={brandImageStyle} className="img img-thumbnail"/>
                   </div>
                 </a>
               ))}

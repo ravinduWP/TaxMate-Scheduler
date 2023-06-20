@@ -23,10 +23,10 @@ const Footer = () => {
                             <Link to="/Service">Taxation</Link>
                           </li>
                           <li>
-                            <Link to="/Service">Accounting</Link>
+                            <Link to="/Service">Accounting & tax planning</Link>
                           </li>
                           <li>
-                            <Link to="/Service">Xero Training</Link>
+                            <Link to="/Service">Software setup And Training</Link>
                           </li>
                           <li>
                             <Link to="/Service">Bookkeeping & Payroll services </Link>

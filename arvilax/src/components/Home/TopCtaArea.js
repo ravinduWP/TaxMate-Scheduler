@@ -11,12 +11,12 @@ const TopCtaArea = () => {
             <div className="row align-items-center justify-content-evenly">
               <div className="col-lg-9">
                 <div className="tp-section-wrapper">
-                  <span className="tp-section-subtitle mb-25">
+                  {/* <span className="tp-section-subtitle mb-25">
                     Gain your business Success
-                  </span>
+                  </span> */}
                   <h2 className="tp-section-title">
                     From strategy to delivery, we are here to make sure your
-                    business endeavor succeeds. Trust our experts.
+                    business endeavours succeed. Trust our experts.
                   </h2>
                 </div>
               </div>
@@ -58,11 +58,7 @@ const TopCtaArea = () => {
               </div>
             </div>
           </div>
-          {/* <!-- line  --> */}
-          <div className="tp-border-line d-block mb-140">
-            <hr />
-          </div>
-          {/* <!-- line  --> */}
+          
         </div>
       </div>
       {/* <!-- cta end end --> */}

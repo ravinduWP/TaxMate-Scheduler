@@ -23,16 +23,13 @@ const Menus = () => {
             <Link to="/service-details/service1">Taxation</Link>
           </li>
           <li>
-            <Link to="/service-details/service2">Financial accounts</Link>
+            <Link to="/service-details/service2">Accounting & Tax planning</Link>
           </li>
           <li>
-            <Link to="/service-details/service3">Xero Training</Link>
+            <Link to="/service-details/service3">Bookkeeping & payroll</Link>
           </li>
           <li>
-            <Link to="/service-details/service4">Bookkeeping</Link>
-          </li>
-          <li>
-            <Link to="/service-details/service5">Payroll services</Link>
+            <Link to="/service-details/service4">Software setup and Training</Link>
           </li>
           <li>
             <Link to="/service-details/service6">Other services</Link>
@@ -44,7 +41,7 @@ const Menus = () => {
       </li>
       <li>
         <Link to="/appointment">
-          <button className={`btn btn-lg  ${isActivePage("/") ? "btn-outline-light" : "btn-outline-dark"}`}>
+          <button className={`btn btn-lg  ${isActivePage("/") ? "btn-light" : "btn-dark"}`}>
             Book An Appointment
           </button>
         </Link>
