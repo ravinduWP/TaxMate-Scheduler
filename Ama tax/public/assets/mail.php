@@ -39,7 +39,7 @@
 
         // FIXME: Update this to your desired email address.
 
-        $recipient = "rravindur@gmail.com";
+        $recipient = "ama@taxsa.com.au";
 
 
 
@@ -51,7 +51,7 @@
 
         //Email Header
 
-        $head = " /// STTHEMES \\\ ";
+        $head = " /// enquiries \\\ ";
 
 
 
