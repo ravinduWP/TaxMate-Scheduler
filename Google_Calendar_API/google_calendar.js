@@ -91,11 +91,11 @@ app.post('/api/getEventsByDate', async (req, res) => {
     if (startDateTime.isBetween(moment().month(6).date(1), moment().month(9).date(31), 'month', '[]')) {
       // July to October (inclusive)
       startTime = moment(date).set({ hour: 9, minute: 0, second: 0 });
-      endTime = moment(date).set({ hour: 18, minute: 0, second: 0 });
+      endTime = moment(date).set({ hour: 17, minute: 30, second: 0 });
     } else {
       // November to June
       startTime = moment(date).set({ hour: 9, minute: 0, second: 0 });
-      endTime = moment(date).set({ hour: 17, minute: 0, second: 0 });
+      endTime = moment(date).set({ hour: 16, minute: 30, second: 0 });
     }
 
     // Create an array to store all time slots
