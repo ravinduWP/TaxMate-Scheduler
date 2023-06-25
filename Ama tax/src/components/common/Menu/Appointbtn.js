@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Appointbtn = () => {
   return (
-    <Link className="tp-btn-sm ml-50" to="/">
+    <Link className="tp-btn-sm ml-50" to="/appointment">
                   <span>
                     <svg
                       width="36"

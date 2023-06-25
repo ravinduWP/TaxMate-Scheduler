@@ -12,7 +12,7 @@ const ServiceDetails = () => {
   return (
     <>
       <Menu header_style_2={true} />
-      <ServiceDetailsBanner />
+      <ServiceDetailsBanner id={useParams().id} />
       <ServiceDetailsAbout id={useParams().id}/>
       <Contact />
       <Footer/>

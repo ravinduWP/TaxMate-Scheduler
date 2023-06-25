@@ -1,7 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import services from '../../../data/services.json';
+const ServiceDetailsBanner = (props) => {
 
-const ServiceDetailsBanner = () => {
+  const servicedata=services;
+  const id =props.id;
+  const pagedata = servicedata.serviceset.find(item => item.id === id);
   return (
     <>
       <section
@@ -14,13 +18,13 @@ const ServiceDetailsBanner = () => {
           <div className="row">
             <div className="col-xxl-12">
               <div className="breadcrumb__content text-center p-relative z-index-1">
-                <h3 className="breadcrumb__title">Our Services</h3>
+                <h3 className="breadcrumb__title">{pagedata.title}</h3>
                 <div className="breadcrumb__list">
                   <span>
                     <Link to="/">Home</Link>
                   </span>
                   <span className="dvdr">:</span>
-                  <span>our services</span>
+                  <span>{pagedata.title}</span>
                 </div>
               </div>
             </div>
