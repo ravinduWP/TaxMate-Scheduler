@@ -108,7 +108,7 @@ const EventForm = () => {
       // console.log(selectedDate);
       const fetchData = async () => {
         try {
-          const response = await fetch('http://localhost:3001/api/getEventsByDate', {
+          const response = await fetch('https://ama-website-backend-production.up.railway.app/api/getEventsByDate', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
@@ -260,7 +260,7 @@ const EventForm = () => {
     };
     
     try {
-      const response = await fetch('http://localhost:3001/api/createEvent', {
+      const response = await fetch('https://ama-website-backend-production.up.railway.app/api/createEvent', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -340,8 +340,8 @@ const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
                 <MenuItem value="">
                   <em>None</em>
                 </MenuItem>
-                <MenuItem value={'Bowden office'}>Office - Bowden</MenuItem>
-                <MenuItem value={'Home office'}>Home - Modbury Heights</MenuItem>
+                <MenuItem value={'Bowden office'}>Office - Bowden-5007</MenuItem>
+                <MenuItem value={'Home office'}>Home - Modbury Heights-5092</MenuItem>
                 <MenuItem value={'Online'} >Online</MenuItem>
               </Select>
             </FormControl>

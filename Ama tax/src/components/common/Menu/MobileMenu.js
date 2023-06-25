@@ -40,7 +40,7 @@ const MobileMenu = () => {
               <Link to="/contact">Contact Us</Link>
             </li>
             <li>
-              <Appointbtn/>
+            <Link to="/appointment"><Appointbtn/></Link>
             </li>
             
           </ul>
