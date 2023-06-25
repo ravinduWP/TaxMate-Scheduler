@@ -38,7 +38,7 @@ const Menu = ({ header_style_2 }) => {
                       <img
                         src={
                           header_style_2
-                            ? "http://localhost:3000/assets/img/logo/logo-black.png"
+                            ? "http://amataxaccountants.com.au/assets/img/logo/logo-black.png"
                             : "assets/img/logo/logo.png"
                         }
                         alt="logo"
