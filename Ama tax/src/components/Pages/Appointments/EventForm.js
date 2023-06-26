@@ -13,9 +13,9 @@ import moment from 'moment';
 // dude i made this from like one day ignore the inline css XD 
 const options = [
   'Individual tax returns - 30 min',
-  'Individual tax returns + Rental property - 45 min',
-  'Trust/Partnership simple - 45 min',
-  'Company simple - 45 min',
+  'Individual tax returns + Rental property - 60 min',
+  'Trust/Partnership simple - 60 min',
+  'Company simple - 60 min',
   'Business registration (Trust/Company/partnership) - 30 min',
   'BAS/Bookkeeping - 30min',
   'Other - 30 min',
@@ -52,10 +52,12 @@ const EventForm = () => {
   const [servicetype, setSertype] = useState(false);
   const [dt, setDt] = useState(false);
   const [details, setDetails] = useState(false);
+  const [isselected,setIsselected] = useState(false);
 
   const handleMenuItemClick = (index, option) => {
     setSelectedIndex(index);
     setTitle(option.split('-')[0].trim());
+    setIsselected(true);
 
     if (
       option === 'Individual tax returns - 30 min' ||
@@ -290,6 +292,7 @@ const EventForm = () => {
     }
   };
 
+ 
 
 //responsive
 const theme = useTheme();
@@ -340,23 +343,27 @@ const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
                 <MenuItem value="">
                   <em>None</em>
                 </MenuItem>
-                <MenuItem value={'Bowden office'}>Office - Bowden-5007</MenuItem>
-                <MenuItem value={'Home office'}>Home - Modbury Heights-5092</MenuItem>
+                <MenuItem value={'Bowden office'}>Office - Bowden (5007)</MenuItem>
+                <MenuItem value={'Home office'}>Home - Modbury Heights (5092)</MenuItem>
                 <MenuItem value={'Online'} >Online</MenuItem>
               </Select>
             </FormControl>
             <Typography mb={7}>{message}</Typography>
             <Button variant='outlined' endIcon={<ArrowForwardIosIcon />} onClick={handlelocationNext}>next</Button>
           </Box>}
-          {servicetype && <Box {...boxStyles}>
+          {servicetype && <Box {...boxStyles} >
             <Typography align='center' variant='h6'>Select Service</Typography>
-            <MenuList sx={{ p: 2, width: '500px', margin: 'auto' }}>
+            <MenuList sx={{ p: 2, width: '500px', margin: 'auto' }}
+              
+            >
               {options.map((option, index) => (
                 <MenuItem
+                  
                   key={index}
                   selected={index === selectedIndex}
                   onClick={(event) => handleMenuItemClick(index, option)}
-                  sx={{ p: 2 }}
+                  sx={{p:2,"&.Mui-selected":{backgroundColor: "#0079FF",color:"#FFFFFF"}}}
+                  
                 >
                   {option}
                 </MenuItem>
@@ -377,7 +384,9 @@ const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
 
 
                 {timevisble && <div style={{ height: '300px', overflow: 'auto', width: '200px', marginLeft: '30px' }}>
-                  <List component="nav">
+                  <List component="nav"
+                    
+                  >
                     {start.map((timeOption, index) => (
                       <ListItemButton
                         key={index}
