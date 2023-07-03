@@ -28,7 +28,7 @@ const MobileMenus = () => {
               <Link to="/contact">Contact Us</Link>
             </li>
             <li>
-            <Link to="/appointment"><Appointbtn/></Link>s
+            <Link to="/appointment"><Appointbtn/></Link>
             </li>
             
           </ul>

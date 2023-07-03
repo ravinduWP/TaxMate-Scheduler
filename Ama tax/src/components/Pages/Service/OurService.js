@@ -9,7 +9,6 @@ const OurService = () => {
           <div className="row">
             <div className="col-12">
               <div className="tp-section-wrapper text-center mb-70">
-                <span className="tp-section-subtitle mb-30">OUR SERVICES</span>
                 <h2 className="tp-section-title">Explore Our Services</h2>
               </div>
             </div>
@@ -39,15 +38,18 @@ const OurService = () => {
               desc="Master Xero effortlessly with our expert training programs for efficient financial management and bookkeeping."
               serviceId="/service-details/service4"
             />
-            <ServiceItem
+          
+          </div>
+          <div className="row justify-content-center">
+          <ServiceItem 
               icon="pe-7s-umbrella"
               title="Other services"
               desc="Discover a world of financial solutions. Come explore our diverse range of services tailored for your needs."
               serviceId="/service-details/service6"
             />
-          
           </div>
         </div>
+        
       </div>
     </>
   );

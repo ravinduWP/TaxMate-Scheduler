@@ -17,12 +17,12 @@ const Menu = ({ header_style_2 }) => {
             header_style_2
               ? "header__area-2 pl-110 pr-110"
               : "header__transparent pr-90 pl-90"
-          } header-sticky-active ${sticky ? "header-sticky" : ""}`}
+          } header-active ${sticky ? "header-sticky" : ""}`}
         >
          
 
           <div className="header__main mb-0" id="header-sticky">
-          <p className={`text-center mt-20 fs-6 ${header_style_2 ? 'text-black' : 'text-white'}`}>
+          <p className={`text-center mt-20 fs-6 ${header_style_2 ? 'text-black' : 'text-white'}`} >
             <a className="px-30 " href={"tel:0881234362"}><i className="fas fa-phone px-2 "></i>(08) 8123 4362</a>
             <a className="px-30 ml-60" href={"tel:0425491977"}><i className="fas fa-mobile px-2"></i>0425 491 977</a>
             <a className="px-30 ml-90" href={"mailto:ama@taxsa.com.au"}><i className="fas fa-envelope px-2"></i>ama@taxsa.com.au</a>
@@ -38,7 +38,7 @@ const Menu = ({ header_style_2 }) => {
                       <img
                         src={
                           header_style_2
-                            ? "http://amataxaccountants.com.au/assets/img/logo/logo-black.png"
+                            ? "https://amataxaccountants.com.au/assets/img/logo/logo-black.png"
                             : "assets/img/logo/logo.png"
                         }
                         alt="logo"

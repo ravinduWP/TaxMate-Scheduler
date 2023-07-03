@@ -1,4 +1,4 @@
-import { AppBar, Box, Button, Dialog, DialogContent, DialogContentText, DialogTitle, FormControl, Grid, IconButton, List, ListItemButton, ListItemText, MenuItem, MenuList, Select, TextField, Toolbar, Typography, Zoom, useMediaQuery, useTheme } from '@mui/material';
+import { AppBar, Box, Button, Dialog, DialogContent, DialogContentText, DialogTitle, FormControl, Grid, IconButton, List, ListItemButton, ListItemText, MenuItem, MenuList, Select, TextField, Toolbar, Typography,  useMediaQuery, useTheme } from '@mui/material';
 import React, { useState, useEffect } from 'react';
 import Footer from '../../common/Footer/Footer';
 import { DateCalendar, LocalizationProvider } from '@mui/x-date-pickers';
@@ -12,11 +12,11 @@ import moment from 'moment';
 
 // dude i made this from like one day ignore the inline css XD 
 const options = [
-  'Individual tax returns - 30 min',
-  'Individual tax returns + Rental property - 60 min',
+  'Individual tax Return - 30 min',
+  'Individual tax + Rental property - 60 min',
   'Trust/Partnership simple - 60 min',
   'Company simple - 60 min',
-  'Business registration (Trust/Company/partnership) - 30 min',
+  'Business registration - 30 min',
   'BAS/Bookkeeping - 30min',
   'Other - 30 min',
 ];
@@ -52,16 +52,16 @@ const EventForm = () => {
   const [servicetype, setSertype] = useState(false);
   const [dt, setDt] = useState(false);
   const [details, setDetails] = useState(false);
-  const [isselected,setIsselected] = useState(false);
+  
 
   const handleMenuItemClick = (index, option) => {
     setSelectedIndex(index);
     setTitle(option.split('-')[0].trim());
-    setIsselected(true);
+    
 
     if (
-      option === 'Individual tax returns - 30 min' ||
-      option === 'Business registration (Trust/Company/partnership) - 30 min' ||
+      option === 'Individual tax Return - 30 min' ||
+      option === 'Business registration - 30 min' ||
       option === 'BAS/Bookkeeping - 30min' ||
       option === 'Other - 30 min'
     ) {
@@ -77,7 +77,7 @@ const EventForm = () => {
     const selectedPlace = event.target.value;
     setPlace(selectedPlace);
     if (selectedPlace === 'Bowden office') {
-      setMessage("(Only available on Wdnesday and Friday)");
+      setMessage("(Only available on Wednesday and Friday)");
     } else if (selectedPlace === 'Home office') {
       setMessage("(Only available on  Monday, Tuesday, Thursday, Saturday and Sunday)");
     } else if (selectedPlace === 'Online') {
@@ -351,9 +351,24 @@ const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
             <Typography mb={7}>{message}</Typography>
             <Button variant='outlined' endIcon={<ArrowForwardIosIcon />} onClick={handlelocationNext}>next</Button>
           </Box>}
-          {servicetype && <Box {...boxStyles} >
+          {servicetype && <Box {...boxStyles} sx={{
+            width:{
+              xs:400,
+              sm:400,
+              md:500,
+              lg:600
+            }
+          }}>
+            <Grid container>
+              <Grid lg={12} md={10} xs={4}>
             <Typography align='center' variant='h6'>Select Service</Typography>
-            <MenuList sx={{ p: 2, width: '500px', margin: 'auto' }}
+            
+            <MenuList sx={{ p: 2, width:{
+              xs:350,
+              sm:400,
+              md:400,
+              lg:500
+            }, margin: 'auto' }}
               
             >
               {options.map((option, index) => (
@@ -362,25 +377,36 @@ const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
                   key={index}
                   selected={index === selectedIndex}
                   onClick={(event) => handleMenuItemClick(index, option)}
-                  sx={{p:2,"&.Mui-selected":{backgroundColor: "#0079FF",color:"#FFFFFF"}}}
+                  sx={{p:2,"&.Mui-selected":{backgroundColor: "#0079FF",color:"#000000"}}}
                   
                 >
                   {option}
                 </MenuItem>
               ))}
             </MenuList>
+            </Grid>
+            </Grid>
+            <Grid xs={4} lg={12} md={10}>
             <Button variant='outlined' startIcon={<ArrowBackIosNewIcon />} sx={{ mr: 1 }} onClick={handleSerback}>back</Button>
             <Button variant='outlined' endIcon={<ArrowForwardIosIcon />} onClick={handleServiceNext}>next</Button>
+            </Grid>
           </Box>}
-          {dt && <Box {...boxStyles}>
+          {dt && <Box {...boxStyles} sx={{
+            width:{
+              xs:400,
+              sm:400,
+              md:500,
+              lg:600
+            }
+          }}>
             <Typography align='center' variant='h6' mb={2}>Select Date and Time</Typography>
             <Grid container>
-              <Grid item xs={6}>
+              <Grid item md={6} xs={12}>
                 <LocalizationProvider dateAdapter={AdapterDayjs}>
                   <DateCalendar disablePast disableHighlightToday shouldDisableDate={shouldDisableDate} onChange={handleDateChange} />
                 </LocalizationProvider>
               </Grid>
-              <Grid item xs={6}>
+              <Grid item md={6} xs={12}>
 
 
                 {timevisble && <div style={{ height: '300px', overflow: 'auto', width: '200px', marginLeft: '30px' }}>
@@ -407,10 +433,17 @@ const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
             <Button variant='outlined' startIcon={<ArrowBackIosNewIcon />} sx={{ mr: 1 }} onClick={handleDTback}>back</Button>
             <Button variant='outlined' endIcon={<ArrowForwardIosIcon />} onClick={handleDTnext}>next</Button>
           </Box>}
-          {details && <Box {...boxStyles} mb={10} mt={10}>
+          {details && <Box {...boxStyles} sx={{
+            width:{
+              xs:400,
+              sm:400,
+              md:650,
+              lg:800
+            }
+          }} mb={10} mt={10}>
             <Typography variant='h6' mb={1}>Add your details</Typography>
             <Grid container>
-              <Grid item xs={5}>
+              <Grid item lg={5} md={5}>
                 <TextField
                   size='small'
                   required
@@ -448,7 +481,7 @@ const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
 
                 />
               </Grid>
-              <Grid item xs={7} sx={{ display: 'flow' }}>
+              <Grid item lg={7} md={7}  sx={{ display: 'flow' }}>
                 <TextField
                   id="Special Requests"
                   label="Special Requests"

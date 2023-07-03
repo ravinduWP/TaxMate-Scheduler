@@ -71,7 +71,7 @@ const TopAbout = () => {
                   <img src="assets/img/about/about.png" alt="" />
                 </div>
                 <div className="tp-about-info text-center grey-bg-4">
-                  <h3>24</h3>
+                  <h3>22</h3>
                   <h4>
                     Years of <br />
                     Experience

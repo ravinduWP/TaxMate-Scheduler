@@ -10,7 +10,7 @@ const OffCanvas = ({ setOffCanvas, isOffCanvas }) => {
         className={`offcanvas__area off-canvas-bg ${
           isOffCanvas ? "opened" : ""
         }`}
-        style={{ backgroundImage: `url("assets/img//bg/Sidearea-bg-img.png")` }}
+        style={{ backgroundImage: `url("https://amataxaccountants.com.au/assets/img//bg/Sidearea-bg-img.png")` }}
       >
         <div className="offcanvas_area-logo">
           <span className="offcanvas__close-btn">
@@ -24,7 +24,7 @@ const OffCanvas = ({ setOffCanvas, isOffCanvas }) => {
             <span>ELEVATE YOUR BUSINESS WITH</span>
           </div>
           <div className="offcanvas-logo pb-20 pt-20">
-            <img src="assets/img/logo/logo.png" alt="" />
+            <img src="https://amataxaccountants.com.au/assets/img/logo/logo.png" alt="" />
           </div>
           <div className="offcanva-details">
           </div>
@@ -84,10 +84,7 @@ const OffCanvas = ({ setOffCanvas, isOffCanvas }) => {
             <li>
               <Link to="mailto:ama@taxsa.com.au">ama@taxsa.com.au</Link>
             </li>
-            <li>
-              <span> Office Hours: 9AM - 5PM</span>
-              <span> Monday - FriDay</span>
-            </li>
+          
           </ul>
         </div>
       </div>

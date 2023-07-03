@@ -100,18 +100,11 @@ const AboutCompany = () => {
             <div className="col-lg-6 text-end">
               <div className="tp-about-img-box p-relative d-inline-block mb-30">
                 <div className="about-page-img">
-                  <img src="assets/img/about/about-page.png" alt="" />
+                  <img src="assets/img/about/about-page.jpg" alt="" width={'410px'} height={'456px'}/>
                 </div>
                 <div className="dots-img">
                   <img src="assets/img/about/dot.jpg" alt="" />
                 </div>
-                {/* <div className="about-info-box d-flex flex-column justify-content-center text-center">
-                  <h3 className="box-title">24</h3>
-                  <h4 className="box-subtitle">
-                    Year of <br />
-                    Experience
-                  </h4>
-                </div> */}
               </div>
             </div>
           </div>
