@@ -110,7 +110,7 @@ const EventForm = () => {
       // console.log(selectedDate);
       const fetchData = async () => {
         try {
-          const response = await fetch('https://ama-website-backend-production.up.railway.app/api/getEventsByDate', {
+          const response = await fetch('https://nice-snaps-fawn.cyclic.app/api/getEventsByDate', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
@@ -245,7 +245,6 @@ const EventForm = () => {
     event.preventDefault();
     const nextdate = new Date(selectedDate);
     const formattedDate = moment(nextdate).format('YYYY-MM-DD');
-    console.log(formattedDate);
 
     const formData = {
       summary: title,
@@ -262,7 +261,7 @@ const EventForm = () => {
     };
     
     try {
-      const response = await fetch('https://ama-website-backend-production.up.railway.app/api/createEvent', {
+      const response = await fetch('https://nice-snaps-fawn.cyclic.app/api/createEvent', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -340,7 +339,7 @@ const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
             <Typography align='center' variant='h6'>Select the Location</Typography>
             <FormControl sx={{ m: 1, minWidth: 200, mt: 8 }} size="small">
               <Select id="demo-select-small" value={place} onChange={handleChange}>
-                <MenuItem value="">
+                <MenuItem value=''>
                   <em>None</em>
                 </MenuItem>
                 <MenuItem value={'Bowden office'}>Office - Bowden (5007)</MenuItem>
@@ -360,7 +359,7 @@ const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
             }
           }}>
             <Grid container>
-              <Grid lg={12} md={10} xs={4}>
+              <Grid item lg={12} md={10} xs={4}>
             <Typography align='center' variant='h6'>Select Service</Typography>
             
             <MenuList sx={{ p: 2, width:{
@@ -386,17 +385,17 @@ const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
             </MenuList>
             </Grid>
             </Grid>
-            <Grid xs={4} lg={12} md={10}>
+            <Grid item xs={4} lg={12} md={10}>
             <Button variant='outlined' startIcon={<ArrowBackIosNewIcon />} sx={{ mr: 1 }} onClick={handleSerback}>back</Button>
             <Button variant='outlined' endIcon={<ArrowForwardIosIcon />} onClick={handleServiceNext}>next</Button>
             </Grid>
           </Box>}
           {dt && <Box {...boxStyles} sx={{
             width:{
-              xs:400,
+              xs:380,
               sm:400,
               md:500,
-              lg:600
+              lg:700
             }
           }}>
             <Typography align='center' variant='h6' mb={2}>Select Date and Time</Typography>
@@ -435,7 +434,7 @@ const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
           </Box>}
           {details && <Box {...boxStyles} sx={{
             width:{
-              xs:400,
+              xs:380,
               sm:400,
               md:650,
               lg:800

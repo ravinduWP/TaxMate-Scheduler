@@ -7,9 +7,8 @@ const OffCanvas = ({ setOffCanvas, isOffCanvas }) => {
   return (
     <>
       <div
-        className={`offcanvas__area off-canvas-bg ${
-          isOffCanvas ? "opened" : ""
-        }`}
+        className={`offcanvas__area off-canvas-bg ${isOffCanvas ? "opened" : ""
+          }`}
         style={{ backgroundImage: `url("https://amataxaccountants.com.au/assets/img//bg/Sidearea-bg-img.png")` }}
       >
         <div className="offcanvas_area-logo">
@@ -75,16 +74,16 @@ const OffCanvas = ({ setOffCanvas, isOffCanvas }) => {
           <h3 className="tp-footer__widget-title">Quick Links</h3>
           <ul>
             <li>
-            <a href="#"> 6 Gething Crescent, Bowden South Australia</a>
+              <a href="#"> 6 Gething Crescent, Bowden South Australia</a>
             </li>
             <li>
-            <a href="tel:0881234362 ">office: (08) 8123 4362 </a>
-                            <a href="tel:0425491977" className="ml-5">Mobile: 0425 491 977 </a>
+              <a href="tel:0881234362 ">office: (08) 8123 4362 </a>
+              <a href="tel:0425491977" className="ml-5">Mobile: 0425 491 977 </a>
             </li>
             <li>
               <Link to="mailto:ama@taxsa.com.au">ama@taxsa.com.au</Link>
             </li>
-          
+
           </ul>
         </div>
       </div>

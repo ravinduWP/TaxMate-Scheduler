@@ -39,15 +39,15 @@ const Footer = () => {
                         {/* <ul>
                         <li><Link to='/'>Home</Link></li>
                         </ul> */}
-                        
+
                       </div>
                     </div>
-                    
+
                     <div className="col-lg-4 col-md-6">
                       <div className="tp-footer__widget  pb-30">
                         <h3 className="tp-footer__widget-title">Quick Links</h3>
                         <ul>
-                        <li>
+                          <li>
                             <a href="">
                               ABN : 41 580 165 625
                             </a>
@@ -59,20 +59,25 @@ const Footer = () => {
                           </li>
                           <li>
                             <a href="">
-                            197A Ladywood Rd, Modbury Heights South Australia
+                              197A Ladywood Rd, Modbury Heights South Australia
                             </a>
                           </li>
                           <li>
                             <a href="tel:0881234362 ">Office: (08) 8123 4362 </a>
                             <a href="tel:0425491977" className="ml-5">Mobile: 0425 491 977 </a>
                           </li>
-                          
+
                           <li>
                             <a href="mailto:ama@taxsa.com.au">
-                            Email: ama@taxsa.com.au
+                              Email: ama@taxsa.com.au
                             </a>
                           </li>
-                          
+                          <li>
+                            <p>
+                              Office hours: 9 AM - 5 PM  Monday – Friday <br />
+                              July - October: 9 AM - 5 PM Monday -Sunday
+                            </p>
+                          </li>
                         </ul>
                       </div>
                     </div>
@@ -104,12 +109,17 @@ const Footer = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="https://www.instagram.com/amataxaccountants/" target='_blank'>
+                        <i className="fab fa-instagram"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.youtube.com/@AMATAXACCOUNTANTS" target='_blank'>
                         <i className="fab fa-youtube"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#">
+                      <a href="https://au.linkedin.com/in/ama-abeywickrama-9242b574" target='_blank'>
                         <i className="fab fa-linkedin"></i>
                       </a>
                     </li>

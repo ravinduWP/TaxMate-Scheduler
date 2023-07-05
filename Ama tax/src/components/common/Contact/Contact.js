@@ -59,17 +59,22 @@ const Contact = () => {
                   <div className="tp-ct-info-icons">
                    
                     <span>
-                      <a href="https://web.facebook.com/p/Ama-Tax-Accountants-100050855595067/?_rdc=2&_rdr" target='_blank'>
+                      <a href="https://web.facebook.com/p/Ama-Tax-Accountants-100050855595067/?_rdc=2&_rdr" target='_blank' >
                         <i className="fab fa-facebook-f"></i>
                       </a>
                     </span>
                     <span>
-                      <a href="#">
+                      <a href="https://www.instagram.com/amataxaccountants/" target='_blank'>
+                        <i className="fab fa-instagram"></i>
+                      </a>
+                    </span>
+                    <span>
+                      <a href="https://www.youtube.com/@AMATAXACCOUNTANTS" target='_blank'>
                         <i className="fab fa-youtube"></i>
                       </a>
                     </span>
                     <span>
-                      <a href="#">
+                      <a href="https://au.linkedin.com/in/ama-abeywickrama-9242b574" target='_blank'>
                         <i className="fab fa-linkedin"></i>
                       </a>
                     </span>
